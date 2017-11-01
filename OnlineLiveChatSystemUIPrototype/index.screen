@@ -1,0 +1,139 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="0e9640cf-9919-48f7-8f22-1955b79d6b3a">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="55e8c31b-df9a-45ac-988f-4818e536f308">
+            <Content.Layers>
+                <Layer Id="21c5577d-a1b4-4988-8fa1-91cc34f507d5" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="654e6b3b-71cf-4814-a006-11ea9893cbef" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="718e4f32-d58c-4d2d-b300-14d85576774b" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="030d24a7-43a0-4d7b-a21b-5c9b90b31464" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/01/2017 11:19:52" Id="1d39c57e-a3ca-4389-a172-4df8cc3fb282">
+            <Scene.KeyFrames>
+                <KeyFrame Id="c2b5ce16-4d78-4da8-8131-5b204502745d">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="21c5577d-a1b4-4988-8fa1-91cc34f507d5">
+                            <Add.Item>
+                                <ContainerBox Id="ff414886-d406-4c06-a43a-334d9ec32f09" Panel.Bounds="51,-849,950{5,2147483647},571{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="6c3cca5a-5bb2-4e52-8b8e-a9bf4dc4c286">
+                                            <Container.Children>
+                                                <TextBox Id="43089f86-51d7-4a2f-9af1-3d8915acd291" Panel.Bounds="401,148,250{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Nickname: " FontSize="16" Id="ce8596fb-6a3f-4cbf-98a8-dda2c6e7300d" Panel.Bounds="286,149,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Age:" FontSize="16" Id="53f21396-b69d-4ca6-b82d-70965791bd22" Panel.Bounds="337,215,5*{5,2147483647},5*{5,2147483647}" />
+                                                <ComboBox Id="cc351043-0ecb-4da4-a20a-4b86d11de685" Panel.Bounds="401,212,250{5,2147483647},25{5,2147483647}">
+                                                    <ComboBox.Items>
+                                                        <Item Text="18" Id="0fd6edab-0512-4edb-a98e-2d2b2ad2dc0a" />
+                                                        <Item Text="19" Id="28628639-0822-4e18-9d9a-5fb9a08b4529" />
+                                                        <Item Text="20" Id="9c31edba-4415-41c0-8aea-d8dd12eaccd5" />
+                                                        <Item Text="21" Id="906085ce-e549-4612-97e0-477e3446f541" />
+                                                        <Item Text="22" Id="8e8adcf9-2e14-4219-9742-0e7f40c8ec99" />
+                                                        <Item Text="23" Id="983f9de8-16e7-44d6-89f6-b54746ae3877" />
+                                                        <Item Text="24" Id="e39ad786-0f4c-48de-a50d-d09c3c167353" />
+                                                        <Item Text="25" Id="9b92fc6b-9bf7-41b8-a3b5-208cbd12cfa9" />
+                                                        <Item Text="26" Id="8f398bca-2e1c-4aa7-8591-164cf8936074" />
+                                                        <Item Text="27" Id="d335c7e8-f7d8-4efe-aff3-3e7ef11e34b8" />
+                                                        <Item Text="28" Id="6d31d0ce-15b4-428a-a2cb-f4dd02404899" />
+                                                        <Item Text="29" Id="48535dae-da98-48b9-9626-c59ab5b6e07f" />
+                                                        <Item Text="30" Id="6aec069e-995b-4f27-9925-b3154735360c" />
+                                                        <Item Text="31" Id="0f3eabdc-2fcb-448b-a034-73ebf27114bf" />
+                                                        <Item Text="32" Id="fb053c11-501e-4ed3-8451-2a5322e3d42e" />
+                                                        <Item Text="33" Id="80410871-1675-4ba3-8f8e-37e017baba60" />
+                                                        <Item Text="34" Id="dab9cddc-7a49-4128-a430-a37808f8b352" />
+                                                        <Item Text="35" Id="54305cd9-d4a7-4daa-8d50-3e4d4e6dd7c7" />
+                                                        <Item Text="36" Id="5af34a99-94e4-4fd3-bfbe-cd07bc03ccad" />
+                                                        <Item Text="37" Id="0168c0b7-74bf-4a98-8031-004cedce5f2e" />
+                                                        <Item Text="38" Id="dbfe587a-c408-4304-be9c-46fcd435833a" />
+                                                        <Item Text="39" Id="716b17fd-c05a-47c7-8b32-193520f18fe2" />
+                                                        <Item Text="40" Id="7b6645bc-dbcd-481b-99be-d6bb9bdb51ae" />
+                                                        <Item Text="41" Id="0f86395b-a614-41af-b6fa-3e7085589a2b" />
+                                                        <Item Text="42" Id="e40fbfe2-8e13-4819-b24a-5d7d8e53f2e2" />
+                                                        <Item Text="43" Id="3703311b-b977-4578-ab26-d322af969430" />
+                                                        <Item Text="44" Id="c81305d5-2460-4437-86fd-ef89ee2325ef" />
+                                                        <Item Text="45" Id="3674c000-7f99-4807-b202-6dcca7506af0" />
+                                                        <Item Text="46" Id="6c93669f-3d39-40bf-b780-27981a6954e5" />
+                                                        <Item Text="47" Id="9a61b8b6-e50e-4c98-a3c7-b0e388b8cf50" />
+                                                        <Item Text="48" Id="bf763c0b-1539-46f9-9f8a-484602aecea3" />
+                                                        <Item Text="49" Id="53c63c5e-be57-4f1d-8d74-1100c87ac6ac" />
+                                                        <Item Text="50" Id="7dc6cf93-9220-42f4-a8ef-b334f73d1c70" />
+                                                        <Item Text="51" Id="a45dad25-4493-4433-ab4c-d803de25d472" />
+                                                        <Item Text="52" Id="87768c54-d91c-4140-9492-4d5c885cb1b3" />
+                                                        <Item Text="53" Id="30e494b0-ae5e-43cc-b791-92f87835c978" />
+                                                        <Item Text="54" Id="c09df573-7961-4749-8a14-c94ba0f1a66c" />
+                                                        <Item Text="55" Id="4bacdf30-7519-4560-9d6d-bad5386b69b9" />
+                                                        <Item Text="56" Id="c739aa65-5e3a-4b86-8502-1cae678e6709" />
+                                                        <Item Text="57" Id="5d83a4cc-3e96-4e14-9294-0b5d02ece74a" />
+                                                        <Item Text="58" Id="d569c1fb-5f4b-4ea2-bb5b-f0058b2d3257" />
+                                                        <Item Text="59" Id="b4b9ff75-2b99-4893-aaf9-5f1087ea76f8" />
+                                                        <Item Text="60" Id="55f04487-b251-4343-acf5-6b39c962d468" />
+                                                    </ComboBox.Items>
+                                                </ComboBox>
+                                                <Label RichText="Sex:" FontSize="16" Id="15e50667-d8fb-4ebd-a995-120386f704c5" Panel.Bounds="337,277,5*{5,2147483647},5*{5,2147483647}" />
+                                                <OptionGroup Id="ace629e7-abe3-401c-8dde-613ad2233706" Panel.Bounds="398,273,5*{5,2147483647},5*{5,2147483647}">
+                                                    <OptionGroup.Items>
+                                                        <Option Text="Male" Id="5c3fc3ab-9a5b-4d4d-ade7-6f2fac6ec815" />
+                                                        <Option Text="Female" Id="efd8043b-a2f1-48d9-8d2a-08de41e63895" />
+                                                    </OptionGroup.Items>
+                                                </OptionGroup>
+                                                <Label RichText="Country:" FontSize="16" Id="2ea8fe6a-8e89-4e0b-943a-1e90bf9495ab" Panel.Bounds="306,331,5*{5,2147483647},5*{5,2147483647}" />
+                                                <ComboBox Id="0ea215c9-c992-42a9-aeb9-d447d9b309b9" Panel.Bounds="401,328,250{5,2147483647},28{5,2147483647}">
+                                                    <ComboBox.Items>
+                                                        <Item Text="Bulgaria" Id="b763a98b-2ad0-48d8-95fd-2f2a7e3118c1" />
+                                                        <Item Text="UK" Id="1864350d-1664-460e-b623-30a7d665c521" />
+                                                        <Item Text="USA" Id="1061671e-4417-45fa-9415-524949110ba3" />
+                                                    </ComboBox.Items>
+                                                </ComboBox>
+                                                <Label RichText="State:" FontSize="16" Id="e20e8cdc-2216-4a94-92bc-1c22aaa3de8e" Panel.Bounds="325,404,5*{5,2147483647},5*{5,2147483647}" />
+                                                <ComboBox Id="c84bc79b-de2e-41cd-9239-cf6247242f12" Panel.Bounds="401,401,250{5,2147483647},28{5,2147483647}">
+                                                    <ComboBox.Items>
+                                                        <Item Text="Plovdiv" Id="053ffc25-1b12-43ab-945e-2288a1f5e10c" />
+                                                        <Item Text="London" Id="4939d7ec-f8e5-4acc-80fe-504ef5fd1ce2" />
+                                                        <Item Text="San Francisco" Id="e0a663ac-4479-4675-8ebc-96b24669caef" />
+                                                    </ComboBox.Items>
+                                                </ComboBox>
+                                                <Image SourcePath="assets/chat.png" Id="2c2a4684-1932-47cd-968c-9c554b534f13" Panel.Bounds="286,22,365{5,2147483647},82{5,2147483647}" />
+                                                <Button Text="Anonymous" Id="af2d98a2-6019-4850-b84c-b501e9aa5b62" Panel.Bounds="401,507,92{5,2147483647},35{5,2147483647}" />
+                                                <Button Text="Register" Id="1e1954f4-97fc-4ba4-a89c-84410c91bb73" Panel.Bounds="563,507,88{5,2147483647},35{5,2147483647}" />
+                                                <Button Text="Use GPS" Id="86056c88-8f81-450e-8a07-abde14611fd0" Panel.Bounds="401,442,92{5,2147483647},35{5,2147483647}" />
+                                                <ContainerBox Id="d4df4cdc-31be-4b71-b847-43a7a6d17c48" Panel.Bounds="22,22,236{5,2147483647},520{5,2147483647}">
+                                                    <ContainerBox.Content>
+                                                        <Container ClipToContainer="True" Id="ce098724-6a1b-4382-afba-3a131a869257">
+                                                            <Container.Children>
+                                                                <Title RichText="A&#xD;&#xA;D&#xD;&#xA;D&#xD;&#xA;S&#xD;&#xA;&#xD;&#xA;H&#xD;&#xA;E&#xD;&#xA;R&#xD;&#xA;E" FontFamily="Open Sans" Id="6be926ae-773f-4487-8175-3f6b7c96338c" Panel.Bounds="-1,-1,250{5,2147483647},520{5,2147483647}" />
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ContainerBox.Content>
+                                                </ContainerBox>
+                                                <ContainerBox Id="ef847732-7146-4273-b9a0-be2cfa178d84" Panel.Bounds="684,22,242{5,2147483647},520{5,2147483647}">
+                                                    <ContainerBox.Content>
+                                                        <Container ClipToContainer="True" Id="2034bb4a-f4a5-42e1-b992-c73bb3484436">
+                                                            <Container.Children>
+                                                                <Title RichText="A&#xD;&#xA;D&#xD;&#xA;D&#xD;&#xA;S&#xD;&#xA;&#xD;&#xA;H&#xD;&#xA;E&#xD;&#xA;R&#xD;&#xA;E" FontFamily="Open Sans" Id="5c2b24b6-7f4e-4d20-a932-c8ac4b062e5e" Panel.Bounds="-677,-1,250{5,2147483647},520{5,2147483647}" />
+                                                                <Title RichText="A&#xD;&#xA;D&#xD;&#xA;D&#xD;&#xA;S&#xD;&#xA;&#xD;&#xA;H&#xD;&#xA;E&#xD;&#xA;R&#xD;&#xA;E" FontFamily="Open Sans" Id="dcf5dc0e-c51e-474a-b9a6-92cd36a5f99a" Panel.Bounds="-1,-1,250{5,2147483647},520{5,2147483647}" />
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ContainerBox.Content>
+                                                </ContainerBox>
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
