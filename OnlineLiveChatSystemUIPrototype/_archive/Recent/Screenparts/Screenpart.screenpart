@@ -1,0 +1,65 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.0.72"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="94cacf44-5962-4190-9bae-0d424a51c27c" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="401" Height="424" Background="#00FFFFFF" Id="c403ea50-f759-4735-9a53-d5c172328834">
+            <BorderedContent.Layers>
+                <Layer Id="c12c46be-49b1-4f67-943f-6bb640649660" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="22d7e411-1ed3-45e2-9512-efe8fde1c2d1" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="e1046ff8-8112-4242-bb03-0e89671f4ce2" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="159a1456-bf87-43db-95be-218451f73e54" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="11/01/2017 12:12:58" Id="e3ea8c6f-cefd-4a5b-8310-fecdb5396f36">
+            <Scene.KeyFrames>
+                <KeyFrame Id="ce6967f4-d807-4eef-8c4b-f5af4568e0e7">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="c12c46be-49b1-4f67-943f-6bb640649660">
+                            <Add.Item>
+                                <Tree Id="7dca3098-ab1b-4053-8146-baf24aab48e4" Panel.Bounds="0,0,401{5,2147483647},424{5,2147483647}">
+                                    <Tree.Items>
+                                        <TreeItem Text="Chat Room 1" Id="2b11ca10-134f-4633-b222-2a64297c8d3f">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-commenting" Id="580d664f-69ac-4dc0-bd75-864037f9392d" />
+                                            </TreeItem.Icon>
+                                        </TreeItem>
+                                        <TreeItem Text="Chat Room 2" Id="dc54c426-0b41-44e2-b7ff-98360f31f684">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-commenting" Id="ffd524c1-ff0d-4f40-b24b-6eb426b5163d" />
+                                            </TreeItem.Icon>
+                                        </TreeItem>
+                                        <TreeItem Text="Chat Room 3" Id="17f68304-7c63-4f16-b811-80b5d5eae5e4">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-commenting" Id="74d252e4-f625-4706-bff0-5de1f5a59084" />
+                                            </TreeItem.Icon>
+                                        </TreeItem>
+                                        <TreeItem Text="Chat Room 4" Id="ce2fdedb-520e-4723-8cb3-04af775fff10">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-commenting" Id="f53e51cc-807f-438f-8f86-094fb96128eb" />
+                                            </TreeItem.Icon>
+                                        </TreeItem>
+                                        <TreeItem Text="Chat Room 5" Id="f95516ea-d040-4e0e-a7ad-ef888620b008">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-commenting" Id="ecc6521c-bf00-418c-9941-4dcafc1baab2" />
+                                            </TreeItem.Icon>
+                                        </TreeItem>
+                                    </Tree.Items>
+                                </Tree>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

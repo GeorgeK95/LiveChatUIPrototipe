@@ -1,6 +1,6 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                Id="0e9640cf-9919-48f7-8f22-1955b79d6b3a">
+                                                                                   Id="0e9640cf-9919-48f7-8f22-1955b79d6b3a">
     <Page.Content>
         <Content Width="1024" Height="768" Id="55e8c31b-df9a-45ac-988f-4818e536f308">
             <Content.Layers>
@@ -25,7 +25,7 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="21c5577d-a1b4-4988-8fa1-91cc34f507d5">
                             <Add.Item>
-                                <ContainerBox Id="ff414886-d406-4c06-a43a-334d9ec32f09" Panel.Bounds="51,-849,950{5,2147483647},571{5,2147483647}">
+                                <ContainerBox Id="ff414886-d406-4c06-a43a-334d9ec32f09" Panel.Bounds="51,52,950{5,2147483647},571{5,2147483647}">
                                     <ContainerBox.Content>
                                         <Container ClipToContainer="True" Id="6c3cca5a-5bb2-4e52-8b8e-a9bf4dc4c286">
                                             <Container.Children>
@@ -103,9 +103,25 @@
                                                     </ComboBox.Items>
                                                 </ComboBox>
                                                 <Image SourcePath="assets/chat.png" Id="2c2a4684-1932-47cd-968c-9c554b534f13" Panel.Bounds="286,22,365{5,2147483647},82{5,2147483647}" />
-                                                <Button Text="Anonymous" Id="af2d98a2-6019-4850-b84c-b501e9aa5b62" Panel.Bounds="401,507,92{5,2147483647},35{5,2147483647}" />
-                                                <Button Text="Register" Id="1e1954f4-97fc-4ba4-a89c-84410c91bb73" Panel.Bounds="563,507,88{5,2147483647},35{5,2147483647}" />
-                                                <Button Text="Use GPS" Id="86056c88-8f81-450e-8a07-abde14611fd0" Panel.Bounds="401,442,92{5,2147483647},35{5,2147483647}" />
+                                                <Button Text="Anonymous" Id="af2d98a2-6019-4850-b84c-b501e9aa5b62" Panel.Bounds="401,507,92{5,2147483647},35{5,2147483647}">
+                                                    <Button.Click>
+                                                        <CommandNavigate Screen="/anonymousUserView.screen" Created="11/01/2017 12:24:51" Id="26994678-8de2-464e-b4d5-5a598128a624">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Button.Click>
+                                                </Button>
+                                                <Button Text="Register" Id="1e1954f4-97fc-4ba4-a89c-84410c91bb73" Panel.Bounds="563,507,88{5,2147483647},35{5,2147483647}">
+                                                    <Button.Click>
+                                                        <CommandNavigate Screen="/registeredUserView.screen" Created="11/01/2017 11:57:04" Id="27b83240-fef0-4249-af5d-4f73ab7be965">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Button.Click>
+                                                </Button>
+                                                <Button Text="Use GPS" Id="86056c88-8f81-450e-8a07-abde14611fd0" Panel.Bounds="401,451,92{5,2147483647},35{5,2147483647}" />
                                                 <ContainerBox Id="d4df4cdc-31be-4b71-b847-43a7a6d17c48" Panel.Bounds="22,22,236{5,2147483647},520{5,2147483647}">
                                                     <ContainerBox.Content>
                                                         <Container ClipToContainer="True" Id="ce098724-6a1b-4382-afba-3a131a869257">

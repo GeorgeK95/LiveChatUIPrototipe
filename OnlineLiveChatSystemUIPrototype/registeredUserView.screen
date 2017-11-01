@@ -1,0 +1,90 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="783eed6d-a10b-47ab-9739-b3892e97b4d6">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="4f80f23c-5bde-4fef-87c5-342195ab2467">
+            <Content.Layers>
+                <Layer Id="9928c024-16ff-44c7-a369-352adf994cb1" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="2609aa62-46eb-4b5c-bc4e-00458c4808ef" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="6407cff8-125f-440e-a333-748363e55ea1" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="abfbb9e2-7030-4b5d-8df9-0158e3cee02c" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/01/2017 11:57:04" Id="14f046d2-21b2-4004-b371-8ac716ce4fce">
+            <Scene.KeyFrames>
+                <KeyFrame Id="9033f6e3-3327-4b95-a625-1ed5bcdb8b4a">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="9928c024-16ff-44c7-a369-352adf994cb1">
+                            <Add.Item>
+                                <ContainerBox Id="9ec04627-7332-4a9c-9493-ea8fac0b67d9" Panel.Bounds="51,27,902{5,2147483647},71{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="af669d42-5198-482c-b5fa-0d3ee685f9d8">
+                                            <Container.Children>
+                                                <Icon CatalogId="linea-remove" Id="d9dcf24b-b2e2-41bd-a70c-35c6c4d14bcd" Panel.Bounds="755,18,32{5,2147483647},32{5,2147483647}" />
+                                                <Icon CatalogId="fa-child" Id="05855cb3-2dd2-455c-ba55-5e371fee0322" Panel.Bounds="585,18,32{5,2147483647},32{5,2147483647}" />
+                                                <Icon CatalogId="Message" Id="ba1074d0-bb49-411b-ac86-d4bad96d9404" Panel.Bounds="389,18,32{5,2147483647},32{5,2147483647}" />
+                                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Logout&lt;/Run&gt;" FontFamily="Open Sans" Id="e5a52edd-7cc5-49ac-bbec-54e6262b03b6" Panel.Bounds="789,23,5*{5,2147483647},5*{5,2147483647}">
+                                                    <Label.Click>
+                                                        <CommandNavigate Screen="/index.screen" Created="11/01/2017 12:28:27" Id="28c39227-64e4-4f70-b2f8-976b03ddbc70">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Label.Click>
+                                                </Label>
+                                                <Label RichText="Profile" FontSize="16" FontFamily="Open Sans" Id="4a05854e-852a-4e65-98db-5abd35f110b7" Panel.Bounds="625,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Chat history" FontSize="16" FontFamily="Open Sans" Id="1ef9d933-7136-4e38-9871-f40a05fdcbf5" Panel.Bounds="436,23,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9928c024-16ff-44c7-a369-352adf994cb1">
+                            <Add.Item>
+                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="7dca3098-ab1b-4053-8146-baf24aab48e4" Panel.Bounds="301,118,401{5,2147483647},449{5,2147483647}">
+                                    <Tree.Items>
+                                        <TreeItem Text="Chat Room 1" Id="2b11ca10-134f-4633-b222-2a64297c8d3f">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-commenting" Id="580d664f-69ac-4dc0-bd75-864037f9392d" />
+                                            </TreeItem.Icon>
+                                        </TreeItem>
+                                        <TreeItem Text="Chat Room 2" Id="dc54c426-0b41-44e2-b7ff-98360f31f684">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-commenting" Id="ffd524c1-ff0d-4f40-b24b-6eb426b5163d" />
+                                            </TreeItem.Icon>
+                                        </TreeItem>
+                                        <TreeItem Text="Chat Room 3" Id="17f68304-7c63-4f16-b811-80b5d5eae5e4">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-commenting" Id="74d252e4-f625-4706-bff0-5de1f5a59084" />
+                                            </TreeItem.Icon>
+                                        </TreeItem>
+                                        <TreeItem Text="Chat Room 4" Id="ce2fdedb-520e-4723-8cb3-04af775fff10">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-commenting" Id="f53e51cc-807f-438f-8f86-094fb96128eb" />
+                                            </TreeItem.Icon>
+                                        </TreeItem>
+                                        <TreeItem Text="Chat Room 5" Id="f95516ea-d040-4e0e-a7ad-ef888620b008">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-commenting" Id="ecc6521c-bf00-418c-9941-4dcafc1baab2" />
+                                            </TreeItem.Icon>
+                                        </TreeItem>
+                                    </Tree.Items>
+                                </Tree>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
