@@ -25,7 +25,7 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="d8a10c28-aa1f-4ba5-8055-741e39e8439a" Panel.Bounds="372,266,601{5,2147483647},402{5,2147483647}">
+                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="d8a10c28-aa1f-4ba5-8055-741e39e8439a" Panel.Bounds="296,266,657{5,2147483647},402{5,2147483647}">
                                     <Tree.Click>
                                         <CommandSwitchTo SceneId="0d960b0b-4e27-4d4d-ab2e-63c867e45ba4" Created="11/02/2017 08:58:23" Id="ffa3812b-15c9-4aa2-904c-049b9fd6b9f5" />
                                     </Tree.Click>
@@ -34,12 +34,12 @@
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Title RichText="&lt;Run FontSize=&quot;24&quot; &gt;Chat Members&lt;/Run&gt;" FontFamily="Open Sans" Id="732ef327-efe1-4592-aa92-7a06b67fa048" Panel.Bounds="81,211,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="&lt;Run FontSize=&quot;24&quot; &gt;Chat Members&lt;/Run&gt;" FontFamily="Open Sans" Id="732ef327-efe1-4592-aa92-7a06b67fa048" Panel.Bounds="61,213,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="22f83489-41a2-44dc-930b-d1c8c1c172d1" Panel.Bounds="55,266,218{5,2147483647},402{5,2147483647}">
+                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="22f83489-41a2-44dc-930b-d1c8c1c172d1" Panel.Bounds="51,266,185{5,2147483647},402{5,2147483647}">
                                     <Tree.Items>
                                         <TreeItem Text="User 1" Id="8732e6ef-9911-4bbe-ac7c-b6ebcc04fb22">
                                             <TreeItem.Icon>
@@ -82,40 +82,12 @@
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <ContainerBox Id="838abb56-ec83-4c11-821a-c5e135a1c061" Panel.Bounds="60,13,902{5,2147483647},71{5,2147483647}">
-                                    <ContainerBox.Content>
-                                        <Container ClipToContainer="True" Id="d10b438d-72d3-4c88-94fa-cea466b6cb6e">
-                                            <Container.Children>
-                                                <Label RichText="Register" FontSize="16" FontFamily="Open Sans" Id="93264442-7af3-461c-83f6-fcf1b2af25be" Panel.Bounds="806,25,5*{5,2147483647},5*{5,2147483647}" />
-                                            </Container.Children>
-                                        </Container>
-                                    </ContainerBox.Content>
-                                </ContainerBox>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
-                            <Add.Item>
-                                <Icon CatalogId="fa-plus-square" Id="2fa5c109-87cb-4dbe-910c-c6906b38a56b" Panel.Bounds="829,33,32{5,2147483647},32{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
-                            <Add.Item>
-                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt; Home&lt;/Run&gt;" FontFamily="Open Sans" Id="c96b89be-0ead-4fa2-b6f3-dca8b977eaaf" Panel.Bounds="749,39,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
-                            <Add.Item>
                                 <Icon CatalogId="fa-paper-plane" Id="2da2f87b-99a8-4168-bfb5-6b714bb89d65" Panel.Bounds="902,690,20{5,2147483647},20{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Icon CatalogId="fa-home" Id="5f1f8f62-d4ee-481c-a673-d5b7184e24bc" Panel.Bounds="715,33,32{5,2147483647},32{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
-                            <Add.Item>
-                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="a70e230a-e3f9-44db-8328-06787ae25c74" Panel.Bounds="372,678,514{5,2147483647},43{5,2147483647}">
+                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="a70e230a-e3f9-44db-8328-06787ae25c74" Panel.Bounds="296,678,590{5,2147483647},43{5,2147483647}">
                                     <Tree.Items>
                                         <TreeItem Id="3ca6e8b7-510b-43ae-8cb8-a453cd8b4407" />
                                     </Tree.Items>
@@ -124,72 +96,89 @@
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Label RichText="Message" FontSize="18" FontFamily="Open Sans" Id="446b6772-f4bf-4e09-97b0-4981ab28a042" Panel.Bounds="395,687,5*{5,2147483647},5*{5,2147483647}" />
+                                <Label RichText="Message" FontSize="18" FontFamily="Open Sans" Id="446b6772-f4bf-4e09-97b0-4981ab28a042" Panel.Bounds="323,687,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="e2c81b20-e30d-44af-97ec-27da9bfd64a2" Panel.Bounds="419,394,122{5,2147483647},35{5,2147483647}" />
+                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="e2c81b20-e30d-44af-97ec-27da9bfd64a2" Panel.Bounds="361,384,122{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Label RichText="Message 1" FontSize="18" FontFamily="Open Sans" Id="a0eb5394-8456-4ad5-ae40-ea7bb6870f89" Panel.Bounds="435,399,5*{5,2147483647},5*{5,2147483647}" />
+                                <Label RichText="Message 1" FontSize="18" FontFamily="Open Sans" Id="a0eb5394-8456-4ad5-ae40-ea7bb6870f89" Panel.Bounds="377,389,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="82da5b32-be35-4ce1-bc32-e599185b5d91" Panel.Bounds="419,448,200{5,2147483647},35{5,2147483647}" />
+                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="82da5b32-be35-4ce1-bc32-e599185b5d91" Panel.Bounds="361,438,200{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Label RichText="Message Message 2" FontSize="18" FontFamily="Open Sans" Id="af11f95c-b308-4f5b-913a-22a56ebaf08b" Panel.Bounds="435,453,5*{5,2147483647},5*{5,2147483647}" />
+                                <Label RichText="Message Message 2" FontSize="18" FontFamily="Open Sans" Id="af11f95c-b308-4f5b-913a-22a56ebaf08b" Panel.Bounds="377,443,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="34a836e9-ebdb-4d14-919b-ab216449b835" Panel.Bounds="799,506,151{5,2147483647},35{5,2147483647}" />
+                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="34a836e9-ebdb-4d14-919b-ab216449b835" Panel.Bounds="787,507,151{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Label RichText="My Message 1" FontSize="18" FontFamily="Open Sans" Id="2cc5ecff-0f5f-436b-8e48-915e0b9e9493" Panel.Bounds="816,511,125{5,2147483647},25*{5,2147483647}" />
+                                <Label RichText="My Message 1" FontSize="18" FontFamily="Open Sans" Id="2cc5ecff-0f5f-436b-8e48-915e0b9e9493" Panel.Bounds="804,512,125{5,2147483647},25*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="4a243e0b-de63-47a2-9119-2cfec5057f29" Panel.Bounds="799,557,151{5,2147483647},35{5,2147483647}" />
+                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="4a243e0b-de63-47a2-9119-2cfec5057f29" Panel.Bounds="787,558,151{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Label RichText="My Message 2" FontSize="18" FontFamily="Open Sans" Id="34349d27-3fd3-463d-8d82-b1f24f7d11d3" Panel.Bounds="816,562,125{5,2147483647},25*{5,2147483647}" />
+                                <Label RichText="My Message 2" FontSize="18" FontFamily="Open Sans" Id="34349d27-3fd3-463d-8d82-b1f24f7d11d3" Panel.Bounds="804,563,125{5,2147483647},25*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="151fe4d0-10a0-4562-8d7b-29f0fd1a1f81" Panel.Bounds="419,618,122{5,2147483647},35{5,2147483647}" />
+                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="151fe4d0-10a0-4562-8d7b-29f0fd1a1f81" Panel.Bounds="361,608,122{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Label RichText="Message 3" FontSize="18" FontFamily="Open Sans" Id="c6b20482-c34e-4a9d-96b3-41f9c076a359" Panel.Bounds="436,623,97{5,2147483647},25*{5,2147483647}" />
+                                <Label RichText="Message 3" FontSize="18" FontFamily="Open Sans" Id="c6b20482-c34e-4a9d-96b3-41f9c076a359" Panel.Bounds="378,613,97{5,2147483647},25*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Icon CatalogId="iOS 7 Contacts" Id="ffd8a17d-4528-4c05-876e-5404f1bc39c1" Panel.Bounds="381,395,32{5,2147483647},32{5,2147483647}" />
+                                <Icon CatalogId="iOS 7 Contacts" Id="ffd8a17d-4528-4c05-876e-5404f1bc39c1" Panel.Bounds="323,385,32{5,2147483647},32{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Icon CatalogId="iOS 7 Contacts" Id="69a0fb3d-4069-44d1-b26c-52628e3a0ac9" Panel.Bounds="381,449,32{5,2147483647},32{5,2147483647}" />
+                                <Icon CatalogId="iOS 7 Contacts" Id="69a0fb3d-4069-44d1-b26c-52628e3a0ac9" Panel.Bounds="323,439,32{5,2147483647},32{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
                             <Add.Item>
-                                <Icon CatalogId="iOS 7 Contacts" Id="e37711ee-08ce-4def-bc59-41014fac76ab" Panel.Bounds="381,619,32{5,2147483647},32{5,2147483647}" />
+                                <Icon CatalogId="iOS 7 Contacts" Id="e37711ee-08ce-4def-bc59-41014fac76ab" Panel.Bounds="323,609,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9b2aa63d-1c1a-43fc-9cb0-747b1c07df2b">
+                            <Add.Item>
+                                <ContainerBox Id="4a28b811-8f30-46a5-af6a-b0378d3fd22f" Panel.Bounds="51,27,902{5,2147483647},71{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="19b802f3-1e8d-4684-927c-486dabfd2a4c">
+                                            <Container.Children>
+                                                <Icon CatalogId="linea-remove" Id="14bb9919-6d8f-42d1-8f41-a60a77800702" Panel.Bounds="755,18,32{5,2147483647},32{5,2147483647}" />
+                                                <Icon CatalogId="fa-home" Id="ca9290a0-12d5-4e13-af93-209ff09b1bb2" Panel.Bounds="585,18,32{5,2147483647},32{5,2147483647}" />
+                                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Logout&lt;/Run&gt;" FontFamily="Open Sans" Id="0b9280f1-7221-4cbf-ae6e-e69e485b8a0c" Panel.Bounds="789,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Home" FontSize="16" FontFamily="Open Sans" Id="3aa0c4b1-2f48-4da3-95ad-a7cfff83a2f2" Name="Home" Panel.Bounds="625,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label FontSize="16" FontFamily="Open Sans" Id="d57d12e0-b248-4c20-b40d-d6f92de24ed8" Panel.Bounds="436,23,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
