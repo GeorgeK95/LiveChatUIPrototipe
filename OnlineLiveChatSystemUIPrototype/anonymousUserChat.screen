@@ -170,11 +170,27 @@
                                     <ContainerBox.Content>
                                         <Container ClipToContainer="True" Id="19b802f3-1e8d-4684-927c-486dabfd2a4c">
                                             <Container.Children>
-                                                <Icon CatalogId="linea-remove" Id="14bb9919-6d8f-42d1-8f41-a60a77800702" Panel.Bounds="755,18,32{5,2147483647},32{5,2147483647}" />
                                                 <Icon CatalogId="fa-home" Id="ca9290a0-12d5-4e13-af93-209ff09b1bb2" Panel.Bounds="585,18,32{5,2147483647},32{5,2147483647}" />
-                                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Logout&lt;/Run&gt;" FontFamily="Open Sans" Id="0b9280f1-7221-4cbf-ae6e-e69e485b8a0c" Panel.Bounds="789,23,5*{5,2147483647},5*{5,2147483647}" />
-                                                <Label RichText="Home" FontSize="16" FontFamily="Open Sans" Id="3aa0c4b1-2f48-4da3-95ad-a7cfff83a2f2" Name="Home" Panel.Bounds="625,23,5*{5,2147483647},5*{5,2147483647}" />
-                                                <Label FontSize="16" FontFamily="Open Sans" Id="d57d12e0-b248-4c20-b40d-d6f92de24ed8" Panel.Bounds="436,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Home" FontSize="16" FontFamily="Open Sans" Id="3aa0c4b1-2f48-4da3-95ad-a7cfff83a2f2" Name="Home" Panel.Bounds="625,23,5*{5,2147483647},5*{5,2147483647}">
+                                                    <Label.Click>
+                                                        <CommandNavigate Screen="/anonymousUserView.screen" Created="11/04/2017 20:23:32" Id="b1a9fed4-1427-4c73-9dc1-6dd7f6b3a9f4">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Label.Click>
+                                                </Label>
+                                                <Label FontSize="16" FontFamily="Open Sans" Id="d57d12e0-b248-4c20-b40d-d6f92de24ed8" Panel.Bounds="835,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Register" FontSize="16" FontFamily="Open Sans" Id="f6800fdb-a284-448c-8d12-7615d455c2cc" Panel.Bounds="808,22,5*{5,2147483647},5*{5,2147483647}">
+                                                    <Label.Click>
+                                                        <CommandNavigate Screen="/index.screen" Created="11/04/2017 20:23:21" Id="ac5aafef-e192-46d6-b9c8-b53280ac2c0a">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Label.Click>
+                                                </Label>
+                                                <Icon CatalogId="fa-plus-square" Id="3d417a35-6123-45d3-9e64-81270baaef3d" Panel.Bounds="760,18,32{5,2147483647},32{5,2147483647}" />
                                             </Container.Children>
                                         </Container>
                                     </ContainerBox.Content>

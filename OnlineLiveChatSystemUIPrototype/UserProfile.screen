@@ -30,25 +30,29 @@
                                         <Container ClipToContainer="True" Id="5e9de922-9a35-4ae8-9e8c-51429fc3eb78">
                                             <Container.Children>
                                                 <Icon CatalogId="linea-remove" Id="8e0e7733-8719-478d-b7ad-4db9929e3c95" Panel.Bounds="755,18,32{5,2147483647},32{5,2147483647}" />
-                                                <Icon CatalogId="fa-child" Id="17364c20-7d02-4462-a05a-9e27bef4919b" Panel.Bounds="585,18,32{5,2147483647},32{5,2147483647}" />
-                                                <Icon CatalogId="Message" Id="b139fc96-2468-4544-8ff5-cc4357cb91a7" Panel.Bounds="389,18,32{5,2147483647},32{5,2147483647}" />
-                                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Logout&lt;/Run&gt;" FontFamily="Open Sans" Id="7c4b7ba1-4864-42d5-a26f-dd80e15b1de7" Panel.Bounds="789,23,5*{5,2147483647},5*{5,2147483647}" />
-                                                <Label RichText="Profile" FontSize="16" FontFamily="Open Sans" Id="6dedf33b-eea2-44b6-8e38-7bc32e14e5a7" Panel.Bounds="625,23,5*{5,2147483647},5*{5,2147483647}" />
-                                                <Label RichText="Chat history" FontSize="16" FontFamily="Open Sans" Id="9ddbf5e8-6817-4b73-b23c-fb0168fe2713" Panel.Bounds="436,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Logout&lt;/Run&gt;" FontFamily="Open Sans" Id="7c4b7ba1-4864-42d5-a26f-dd80e15b1de7" Panel.Bounds="789,23,5*{5,2147483647},5*{5,2147483647}">
+                                                    <Label.Click>
+                                                        <CommandNavigate Screen="/index.screen" Created="11/04/2017 20:15:41" Id="393857f9-b589-42a9-a11b-62e1cd9e55ad">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Label.Click>
+                                                </Label>
+                                                <Icon CatalogId="fa-home" Id="93d5e9ec-8c6f-41ef-8921-3e6266a2e4c6" Panel.Bounds="599,18,32{5,2147483647},32{5,2147483647}" />
+                                                <Label RichText="Home" FontSize="16" FontFamily="Open Sans" Id="83244c15-0de3-4419-a52a-201591ff060a" Name="Home" Panel.Bounds="643,23,5*{5,2147483647},5*{5,2147483647}">
+                                                    <Label.Click>
+                                                        <CommandNavigate Screen="/registeredUserView.screen" Created="11/04/2017 20:16:09" Id="f9db2f20-04c8-4f0b-a767-e3805632ea54">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Label.Click>
+                                                </Label>
                                             </Container.Children>
                                         </Container>
                                     </ContainerBox.Content>
                                 </ContainerBox>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="a55a0abd-1996-4533-9386-f3aef36a6af1">
-                            <Add.Item>
-                                <Icon CatalogId="fa-home" Id="93d5e9ec-8c6f-41ef-8921-3e6266a2e4c6" Panel.Bounds="298,46,32{5,2147483647},32{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="a55a0abd-1996-4533-9386-f3aef36a6af1">
-                            <Add.Item>
-                                <Label RichText="Home" FontSize="16" FontFamily="Open Sans" Id="83244c15-0de3-4419-a52a-201591ff060a" Name="Home" Panel.Bounds="342,51,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a55a0abd-1996-4533-9386-f3aef36a6af1">

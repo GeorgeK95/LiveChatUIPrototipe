@@ -31,7 +31,6 @@
                                             <Container.Children>
                                                 <Icon CatalogId="linea-remove" Id="d9dcf24b-b2e2-41bd-a70c-35c6c4d14bcd" Panel.Bounds="755,18,32{5,2147483647},32{5,2147483647}" />
                                                 <Icon CatalogId="fa-child" Id="05855cb3-2dd2-455c-ba55-5e371fee0322" Panel.Bounds="585,18,32{5,2147483647},32{5,2147483647}" />
-                                                <Icon CatalogId="Message" Id="ba1074d0-bb49-411b-ac86-d4bad96d9404" Panel.Bounds="389,18,32{5,2147483647},32{5,2147483647}" />
                                                 <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Logout&lt;/Run&gt;" FontFamily="Open Sans" Id="e5a52edd-7cc5-49ac-bbec-54e6262b03b6" Panel.Bounds="789,23,5*{5,2147483647},5*{5,2147483647}">
                                                     <Label.Click>
                                                         <CommandNavigate Screen="/index.screen" Created="11/01/2017 12:28:27" Id="28c39227-64e4-4f70-b2f8-976b03ddbc70">
@@ -41,8 +40,15 @@
                                                         </CommandNavigate>
                                                     </Label.Click>
                                                 </Label>
-                                                <Label RichText="Profile" FontSize="16" FontFamily="Open Sans" Id="4a05854e-852a-4e65-98db-5abd35f110b7" Panel.Bounds="625,23,5*{5,2147483647},5*{5,2147483647}" />
-                                                <Label RichText="Chat history" FontSize="16" FontFamily="Open Sans" Id="1ef9d933-7136-4e38-9871-f40a05fdcbf5" Panel.Bounds="436,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Profile" FontSize="16" FontFamily="Open Sans" Id="4a05854e-852a-4e65-98db-5abd35f110b7" Panel.Bounds="625,23,5*{5,2147483647},5*{5,2147483647}">
+                                                    <Label.Click>
+                                                        <CommandNavigate Screen="/UserProfile.screen" Created="11/04/2017 20:13:40" Id="1185f442-b271-4608-a97e-e1c829044396">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Label.Click>
+                                                </Label>
                                             </Container.Children>
                                         </Container>
                                     </ContainerBox.Content>
@@ -57,26 +63,118 @@
                                             <TreeItem.Icon>
                                                 <Icon Color="#FF666666" CatalogId="fa-commenting" Id="580d664f-69ac-4dc0-bd75-864037f9392d" />
                                             </TreeItem.Icon>
+                                            <TreeItem.Selected>
+                                                <CommandNavigate Screen="/registeredUserChat.screen" Created="11/04/2017 20:00:14" Id="89b58ac8-2d57-4d4e-b7d3-626522a3c24c">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Selected>
                                         </TreeItem>
                                         <TreeItem Text="Chat Room 2" Id="dc54c426-0b41-44e2-b7ff-98360f31f684">
                                             <TreeItem.Icon>
                                                 <Icon Color="#FF666666" CatalogId="fa-commenting" Id="ffd524c1-ff0d-4f40-b24b-6eb426b5163d" />
                                             </TreeItem.Icon>
+                                            <TreeItem.Selected>
+                                                <CommandNavigate Screen="/registeredUserChat.screen" Created="11/04/2017 20:00:25" Id="147d7e2b-ecab-4731-956a-28049cff8c5c">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Selected>
                                         </TreeItem>
                                         <TreeItem Text="Chat Room 3" Id="17f68304-7c63-4f16-b811-80b5d5eae5e4">
                                             <TreeItem.Icon>
                                                 <Icon Color="#FF666666" CatalogId="fa-commenting" Id="74d252e4-f625-4706-bff0-5de1f5a59084" />
                                             </TreeItem.Icon>
+                                            <TreeItem.Selected>
+                                                <CommandNavigate Screen="/registeredUserChat.screen" Created="11/04/2017 20:00:31" Id="6d67d37f-b152-4694-9c9e-11fe25c23c13">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Selected>
                                         </TreeItem>
                                         <TreeItem Text="Chat Room 4" Id="ce2fdedb-520e-4723-8cb3-04af775fff10">
                                             <TreeItem.Icon>
                                                 <Icon Color="#FF666666" CatalogId="fa-commenting" Id="f53e51cc-807f-438f-8f86-094fb96128eb" />
                                             </TreeItem.Icon>
+                                            <TreeItem.Selected>
+                                                <CommandNavigate Screen="/registeredUserChat.screen" Created="11/04/2017 20:00:37" Id="3ddf3175-3e7f-49c7-84d3-5cb0176f4139">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Selected>
                                         </TreeItem>
-                                        <TreeItem Text="Chat Room 5" Id="f95516ea-d040-4e0e-a7ad-ef888620b008">
+                                        <TreeItem Text="Chat Room 5" Id="f95516ea-d040-4e0e-a7ad-ef888620b008" Name="registeredUserChat">
                                             <TreeItem.Icon>
                                                 <Icon Color="#FF666666" CatalogId="fa-commenting" Id="ecc6521c-bf00-418c-9941-4dcafc1baab2" />
                                             </TreeItem.Icon>
+                                            <TreeItem.Selected>
+                                                <CommandNavigate Screen="/registeredUserChat.screen" Created="11/04/2017 20:00:42" Id="448c2865-6865-461d-983d-227e168ea283">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Selected>
+                                        </TreeItem>
+                                        <TreeItem Text="Private Chat Room 1" Id="467f093f-6f06-49f5-b57b-a7ede95438d4">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-lock" Id="6ba7a7f0-565d-435b-b7b5-6b30b48297b3" />
+                                            </TreeItem.Icon>
+                                            <TreeItem.Selected>
+                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:02:47" Id="b7271ac4-5732-46d3-a4d3-90426c5bfdda">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Selected>
+                                            <TreeItem.Click>
+                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:10:34" Id="924e7fa9-88a3-4b7c-8df0-bab2067ec818">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Click>
+                                        </TreeItem>
+                                        <TreeItem Text="Private Chat Room 2" Id="457749ae-fa25-411f-96f6-94b73d4d5dfa">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-lock" Id="253339bb-a28f-44e8-a84d-0bafd0ee4c95" />
+                                            </TreeItem.Icon>
+                                            <TreeItem.Selected>
+                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:02:52" Id="c3f92975-ac14-4d79-81ae-2410ee939437">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Selected>
+                                            <TreeItem.Click>
+                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:10:41" Id="af7d6acb-3124-4706-a05e-cb68ff06f6c1">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Click>
+                                        </TreeItem>
+                                        <TreeItem Text="Private Chat Room 3" Id="8e799192-1f3c-44f3-b2dc-4047a3abb498">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-lock" Id="45abf36a-7e87-422c-8f00-5d149d21d75f" />
+                                            </TreeItem.Icon>
+                                            <TreeItem.Selected>
+                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:02:56" Id="7caca3cd-5d9c-44b7-9050-37babfa32701">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Selected>
+                                            <TreeItem.Click>
+                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:10:46" Id="6b532cc6-7285-47a5-9971-a6261e8c0d33">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Click>
                                         </TreeItem>
                                     </Tree.Items>
                                 </Tree>
