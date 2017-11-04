@@ -1,0 +1,83 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="279d4b82-fb17-45e9-8d63-08430f8384a1">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="f2e89b75-0834-44d5-8b0b-449b640dccf1">
+            <Content.Layers>
+                <Layer Id="2fd32332-874e-4097-b41f-6de24bffd00e" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="a77cfb30-1c13-4cd2-89eb-7a50b9d44f1d" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="b2f58830-7a6e-4771-bcaa-1f3f6a685b2c" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="fe5e2485-11a5-43cc-abfd-285a6d5e74f2" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 19:55:28" Id="a8a0df31-16be-4b5a-a270-301769a35753">
+            <Scene.KeyFrames>
+                <KeyFrame Id="b3985d2e-8d82-4929-bc8e-96bc6ee3cd9e">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="2fd32332-874e-4097-b41f-6de24bffd00e">
+                            <Add.Item>
+                                <Tree CornerRadius="20" FontSize="18" Opacity="1" Id="2d6fb5cf-312c-4668-bf33-e0408749f27e" Panel.Bounds="183,183,657{5,2147483647},402{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2fd32332-874e-4097-b41f-6de24bffd00e">
+                            <Add.Item>
+                                <Title RichText="Private Chat Room 1" FontFamily="Open Sans" Id="bae988e1-d2f7-45c0-aae8-e8297942c0ac" Panel.Bounds="379,297,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2fd32332-874e-4097-b41f-6de24bffd00e">
+                            <Add.Item>
+                                <PasswordBox Password="fgdgdffdgdfgdf" FontFamily="Open Sans" Id="23063a50-22ed-4499-86bf-f2d163c3d3eb" Panel.Bounds="519,366,183{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2fd32332-874e-4097-b41f-6de24bffd00e">
+                            <Add.Item>
+                                <Label FontFamily="Open Sans" Id="fc3fb44b-2c7a-4525-aba4-d47c22acc43d" Panel.Bounds="374,254,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2fd32332-874e-4097-b41f-6de24bffd00e">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontSize=&quot;28&quot; &gt;Password&lt;/Run&gt;" FontFamily="Open Sans" Id="6bee6863-a573-4e9f-9064-12c9e8066634" Panel.Bounds="379,356,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2fd32332-874e-4097-b41f-6de24bffd00e">
+                            <Add.Item>
+                                <Button Text="Enter" FontSize="36" FontFamily="Open Sans" Id="3aa57542-7c70-4c75-8c9c-5ef90de7a736" Panel.Bounds="469,422,143{5,2147483647},55{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Screen.screen" Created="11/04/2017 20:09:36" Id="a0bce1b9-75ac-45aa-ad36-06fb071eb70e">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                    <Button.DoubleClick>
+                                        <CommandNavigate Screen="/registeredUserChat.screen" Created="11/04/2017 20:09:52" Id="54eb7431-86e5-4fb7-9365-60dd4a63da39">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.DoubleClick>
+                                    <Button.MouseOver>
+                                        <CommandNavigate Screen="/registeredUserChat.screen" Created="11/04/2017 20:11:10" Id="e9beef58-a800-44cb-966b-9cde08a72c37">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.MouseOver>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
