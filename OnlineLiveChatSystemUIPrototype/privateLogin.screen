@@ -1,6 +1,6 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                Id="279d4b82-fb17-45e9-8d63-08430f8384a1">
+                                                                                   Id="279d4b82-fb17-45e9-8d63-08430f8384a1">
     <Page.Content>
         <Content Width="1024" Height="768" Id="f2e89b75-0834-44d5-8b0b-449b640dccf1">
             <Content.Layers>
@@ -52,7 +52,7 @@
                             <Add.Item>
                                 <Button Text="Enter" FontSize="36" FontFamily="Open Sans" Id="3aa57542-7c70-4c75-8c9c-5ef90de7a736" Panel.Bounds="469,422,143{5,2147483647},55{5,2147483647}">
                                     <Button.Click>
-                                        <CommandNavigate Screen="/Screen.screen" Created="11/04/2017 20:09:36" Id="a0bce1b9-75ac-45aa-ad36-06fb071eb70e">
+                                        <CommandNavigate Screen="/EditUserProfile.screen" Created="11/04/2017 20:09:36" Id="a0bce1b9-75ac-45aa-ad36-06fb071eb70e">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Duration="0" />
                                             </CommandNavigate.Transition>

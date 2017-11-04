@@ -1,0 +1,152 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="e54bc581-404f-40da-b0c3-73cd65b481f6">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="2ec9092d-3820-42e6-8a5e-8c0a447aa93a">
+            <Content.Layers>
+                <Layer Id="b3782087-7875-4863-adb0-ec1a92f7f6da" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="9d221b03-1d7d-4117-b81e-06ab81f90b14" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="f29e29ed-c558-4f6f-80df-6fc8f67b6e61" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="b5a24676-16ef-494f-9275-3d120cae5907" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 22:18:02" Id="5fa7e32e-819c-4c5a-8902-5e46199dd472">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3920f9fe-5853-44b8-be1f-625e4dab3d82">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="b3782087-7875-4863-adb0-ec1a92f7f6da">
+                            <Add.Item>
+                                <ContainerBox Id="be99bec1-cac4-4b63-951c-3bad9203610e" Panel.Bounds="51,27,902{5,2147483647},71{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="f8fa4f58-4152-45e8-af0a-7567a82f1588">
+                                            <Container.Children>
+                                                <Icon CatalogId="linea-remove" Id="5706cbb1-de74-489c-8888-9b7965333ba5" Panel.Bounds="755,18,32{5,2147483647},32{5,2147483647}" />
+                                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Logout&lt;/Run&gt;" FontFamily="Open Sans" Id="c94555e2-3376-4eb8-9c3e-29545826ff94" Panel.Bounds="789,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Icon CatalogId="fa-home" Id="c5b0dab8-9b77-46b7-aa3f-223793bb18b5" Panel.Bounds="599,18,32{5,2147483647},32{5,2147483647}" />
+                                                <Label RichText="Home" FontSize="16" FontFamily="Open Sans" Id="5868a565-cb80-461b-b389-f923d27c67a2" Name="Home" Panel.Bounds="643,23,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3782087-7875-4863-adb0-ec1a92f7f6da">
+                            <Add.Item>
+                                <Title RichText="User Management" FontFamily="Open Sans" Id="d8305874-7692-4002-84a8-05d5d75efca6" Panel.Bounds="355,138,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3782087-7875-4863-adb0-ec1a92f7f6da">
+                            <Add.Item>
+                                <Grid FontSize="16" HeaderFontSize="18" HeaderFontStyle="Bold" Id="9e51acb9-065a-407d-b1fd-6c5513c73e74" Panel.Bounds="86,263,5*{5,2147483647},5*{5,2147483647}">
+                                    <Grid.HeaderRow>
+                                        <GridHeaderRow FontStyle="" Height="32" Id="2f08308a-b9f4-4ca4-8296-0adb3038a117" />
+                                    </Grid.HeaderRow>
+                                    <Grid.Columns>
+                                        <GridColumn ColumnId="48edfaa4-3de3-416c-83e3-504bcb199363" Type="Text" Width="166" Id="95609ece-9452-42ad-8df2-f2eea0cff13c">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="48edfaa4-3de3-416c-83e3-504bcb199363" Value="Username" Opacity="1" Id="cce67c2b-b0cd-40d3-a072-4a06cd3550b2" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="cb31d798-cf5b-45b2-acda-712f2d0b8f20" Type="Text" Width="166" Id="658bcc55-b885-4977-93af-b6bf9183cca0">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="cb31d798-cf5b-45b2-acda-712f2d0b8f20" Value="Age" Opacity="1" Id="2429b7e6-eaab-441d-8c65-88fd7228c60a" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="0d59fda8-1092-4bb4-9d04-4ea6ca396783" Type="Text" Width="166" Id="6a17d0b8-e184-4a94-9ba6-686bbf52bb1b">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="0d59fda8-1092-4bb4-9d04-4ea6ca396783" Value="Country" Opacity="1" Id="ce24aef8-6b5c-40e8-9089-3be2538d9bf3" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="96f7a319-33d9-4814-8598-c1c8bcc165ef" Type="Text" Width="166" Id="13194ff2-2f08-499c-a6b2-023974533184">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="96f7a319-33d9-4814-8598-c1c8bcc165ef" Value="Joined" Opacity="1" Id="7dd22a82-42c9-479f-aa6d-a47645d3a7ad" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="528c3467-d1ca-431c-80c5-ec83abdf7c0a" Type="Text" Width="166" Id="752f9bcb-e8cb-4852-bad2-e64fed76527d">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="528c3467-d1ca-431c-80c5-ec83abdf7c0a" Value="Actions" Opacity="1" Id="9c2b542d-7548-4b4f-90a8-09370df292e6" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                    </Grid.Columns>
+                                    <Grid.Rows>
+                                        <GridRow Height="32" Id="e0ee80d6-97e2-44b3-b741-fdcecb85d93e">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="48edfaa4-3de3-416c-83e3-504bcb199363" Value="Pesho" Opacity="1" Id="d3115d07-b42e-401f-b38a-ed4a681a0359" />
+                                                <GridCellData ColumnId="cb31d798-cf5b-45b2-acda-712f2d0b8f20" Value="22" Opacity="1" Id="3577033e-e310-4cb5-b6f0-55f900784d75" />
+                                                <GridCellData ColumnId="0d59fda8-1092-4bb4-9d04-4ea6ca396783" Value="Bulgaria" Opacity="1" Id="7de5e0e9-211a-4328-a886-ea521056d20c" />
+                                                <GridCellData ColumnId="96f7a319-33d9-4814-8598-c1c8bcc165ef" Value="06-10-2017" Opacity="1" Id="9b5c63eb-1f83-4648-912a-3ac62bd59943" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="f945737c-0d8e-41cf-81eb-b113ff295e32">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="48edfaa4-3de3-416c-83e3-504bcb199363" Value="Gosho" Opacity="1" Id="fd906c1a-57ff-45ee-bf81-1e6c02821a5b" />
+                                                <GridCellData ColumnId="cb31d798-cf5b-45b2-acda-712f2d0b8f20" Value="34" Opacity="1" Id="580d693e-3c98-43b4-9e98-86704273cc6d" />
+                                                <GridCellData ColumnId="0d59fda8-1092-4bb4-9d04-4ea6ca396783" Value="Bulgaria" Opacity="1" Id="d35ced21-7f79-4040-b82d-19f3dd35bb06" />
+                                                <GridCellData ColumnId="96f7a319-33d9-4814-8598-c1c8bcc165ef" Value="05-11-2017" Opacity="1" Id="148f7bc1-a55c-4c59-9f4b-e34b8087bbe8" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="a5121379-c7c8-4fd6-b409-24a03f2768c2">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="48edfaa4-3de3-416c-83e3-504bcb199363" Value="Liam" Opacity="1" Id="bf147582-9bec-4b27-a7dd-d4268727a154" />
+                                                <GridCellData ColumnId="cb31d798-cf5b-45b2-acda-712f2d0b8f20" Value="28" Opacity="1" Id="a2e1dddc-4aa0-4ad7-9b9a-f80f82c8f2b7" />
+                                                <GridCellData ColumnId="0d59fda8-1092-4bb4-9d04-4ea6ca396783" Value="United States" Opacity="1" Id="4ac7d86c-fc66-4ad3-979b-cbfbd0c51235" />
+                                                <GridCellData ColumnId="96f7a319-33d9-4814-8598-c1c8bcc165ef" Value="12-06-2017" Opacity="1" Id="2cfa4ed2-1003-461f-b355-f0e34cc98e6b" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="6029e80b-91ca-4fdb-84ae-dbf5880d2c46" />
+                                        <GridRow Height="32" Id="584ebbb8-df41-416f-b1b5-d621686c605d" />
+                                        <GridRow Height="32" Id="3d3b68d6-a94e-4049-9b3e-d80f059bb91b" />
+                                        <GridRow Height="32" Id="6122627e-de0d-4b61-8075-d52efe7a65a8" />
+                                        <GridRow Height="32" Id="061399d6-8288-4565-93af-61c162d61bf1" />
+                                        <GridRow Height="32" Id="c203a7fe-1ac5-4ce4-8086-427f62f494de" />
+                                        <GridRow Height="32" Id="f90c2073-7654-49a0-9d7d-1e117f8036d8" />
+                                        <GridRow Height="32" Id="d946a564-dccc-45ff-866b-1bde6f06edea" />
+                                    </Grid.Rows>
+                                </Grid>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3782087-7875-4863-adb0-ec1a92f7f6da">
+                            <Add.Item>
+                                <Button Text="Mute" Background="#FFFFFFFF" FontFamily="Open Sans" Id="7830eb3a-a839-4752-9b0e-1bfc2920f8e9" Panel.Bounds="764,299,67{5,2147483647},25{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3782087-7875-4863-adb0-ec1a92f7f6da">
+                            <Add.Item>
+                                <Button Text="Delete" Background="#FFFFFFFF" FontFamily="Open Sans" Id="3015f6d2-e043-46be-8bda-2da7564055dc" Panel.Bounds="836,299,67{5,2147483647},25{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3782087-7875-4863-adb0-ec1a92f7f6da">
+                            <Add.Item>
+                                <Button Text="Unmute" Background="#FFFFFFFF" FontFamily="Open Sans" Id="60b14124-ad09-493e-9901-d8b67171a7aa" Panel.Bounds="764,363,67{5,2147483647},25{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3782087-7875-4863-adb0-ec1a92f7f6da">
+                            <Add.Item>
+                                <Button Text="Delete" Background="#FFFFFFFF" FontFamily="Open Sans" Id="b89d39c4-a983-4446-8c9b-bbc2f6147cba" Panel.Bounds="836,363,67{5,2147483647},25{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3782087-7875-4863-adb0-ec1a92f7f6da">
+                            <Add.Item>
+                                <Button Text="Mute" Background="#FFF7F7F7" FontFamily="Open Sans" Id="84a1f617-b5bd-413b-a18a-a2756d7256a5" Panel.Bounds="764,332,67{5,2147483647},25{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3782087-7875-4863-adb0-ec1a92f7f6da">
+                            <Add.Item>
+                                <Button Text="Delete" Background="#FFF7F7F7" FontFamily="Open Sans" Id="17dd7829-1e2f-4577-b3ec-fdf72bdecca4" Panel.Bounds="836,332,67{5,2147483647},25{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

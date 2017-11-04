@@ -1,0 +1,137 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="d22a7152-189a-4a4c-ae1e-b3775095d0bc">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="3baaef3a-b4b2-44c5-a41b-0faea42014eb">
+            <Content.Layers>
+                <Layer Id="5a77771d-582c-42db-965d-5912a4b1853b" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="a410eabe-a67c-46aa-a331-918c2075883d" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="d920f13b-3665-446b-b553-00ffe3be2d78" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="a778966f-3740-4edd-b05d-4f68b76b0eea" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 22:10:06" Id="aff73701-18d6-4263-83bf-a8b65c4cfdc3">
+            <Scene.KeyFrames>
+                <KeyFrame Id="cdc292c5-9a6f-4cc4-86d1-7b772084bc10">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <ContainerBox Id="858dd239-447c-45b2-b64e-e14c108f9512" Panel.Bounds="51,27,902{5,2147483647},71{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="20e62481-b031-485b-bff4-5246b64094f1">
+                                            <Container.Children>
+                                                <Icon CatalogId="linea-remove" Id="da2b16f6-e12a-47a9-952e-8ca3e9b25830" Panel.Bounds="755,18,32{5,2147483647},32{5,2147483647}" />
+                                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Logout&lt;/Run&gt;" FontFamily="Open Sans" Id="2868ad6d-b6f3-4104-9db4-5177db0e0703" Panel.Bounds="789,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Icon CatalogId="fa-home" Id="5b0836cb-6cdf-4172-b0fb-c90b24bdc778" Panel.Bounds="599,18,32{5,2147483647},32{5,2147483647}" />
+                                                <Label RichText="Home" FontSize="16" FontFamily="Open Sans" Id="a30c43de-488e-4970-9aad-fd457bb07096" Name="Home" Panel.Bounds="643,23,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <Image SourcePath="assets/78373.png" Tooltip="Avatar" Id="3366fe06-8362-4a0f-b5c5-754ce968529b" Name="Avatar" Panel.Bounds="214,165,203{5,2147483647},197{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <Title RichText="Username" FontFamily="Open Sans" Id="867c1bb0-b54f-45e9-8821-731fddce2ecf" Panel.Bounds="520,165,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <Label RichText="Age: " FontSize="18" FontFamily="Open Sans" Id="c368bb2e-9c97-49a0-8682-203ac4e6f6b8" Panel.Bounds="569,222,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <Label RichText="Gender: " FontSize="18" FontFamily="Open Sans" Id="2d8c386b-cb21-4adc-b4b7-69017b0d323b" Panel.Bounds="543,257,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Country:  &lt;/Run&gt;" FontSize="18" FontFamily="Open Sans" Id="5a35153c-8d48-45e5-9842-3df190fd5e9e" Panel.Bounds="537,292,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <Label RichText="Description" FontSize="24" FontFamily="Open Sans" Id="2f8f40fe-ae89-4971-bbda-8c184525c88f" Panel.Bounds="437,367,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <Button Text="Save" FontSize="18" FontFamily="Open Sans" Id="2d291498-e075-4b6a-9f56-dbc766b57cc1" Panel.Bounds="286,654,192{5,2147483647},67{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <Label RichText="I study at SoftUni.&#xD;&#xA;I like pets." FontSize="18" FontFamily="Open Sans" Id="68cb6e0a-b028-4bee-bcc1-986747c905fa" Panel.Bounds="298,435,187{5,2147483647},88{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <Icon CatalogId="Edit" Id="b5c789e3-065a-4c4a-9278-838f1d6118da" Panel.Bounds="732,221,23{5,2147483647},23{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <Icon CatalogId="Edit" Id="de17a7f1-6fc0-4db3-83d9-90b8d846cb00" Panel.Bounds="732,258,23{5,2147483647},23{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <Icon CatalogId="Edit" Id="84b6c678-94ce-4ade-9345-094dea79fa77" Panel.Bounds="732,295,23{5,2147483647},23{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <TextBox Text="22" FontSize="18" FontFamily="Open Sans" Id="0ec96cf5-0bdd-4d0a-97e7-4a084443d072" Panel.Bounds="618,217,99{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <TextBox Text="Bulgaria" FontSize="18" FontFamily="Open Sans" Id="2ac3857a-7238-4604-8e72-da77af0e2cd5" Panel.Bounds="618,288,99{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <TextBox Text="Male" FontSize="18" FontFamily="Open Sans" Id="d13babd3-a9a5-4819-adce-89280b839b14" Panel.Bounds="618,254,99{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <TextArea Text="I study at SoftUni.&#xA;I like pets." FontSize="18" FontFamily="Open Sans" Id="df2e40be-b7c4-4976-ad1e-18c64078aeb1" Panel.Bounds="286,432,455{5,2147483647},181{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <Button Text="Cancel" FontSize="18" FontFamily="Open Sans" Id="4ba5860f-0a50-4491-aec5-7d62f013c8a4" Panel.Bounds="549,654,192{5,2147483647},67{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <Icon CatalogId="Edit" Id="56e9ed5d-62c2-4ef0-82b3-807dfd48a8ec" Panel.Bounds="581,372,23{5,2147483647},23{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5a77771d-582c-42db-965d-5912a4b1853b">
+                            <Add.Item>
+                                <Button Text="Select new file" FontFamily="Open Sans" Id="d2cfa6a4-dbbe-49d7-9124-f61028afdd8c" Panel.Bounds="262,367,107{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
