@@ -1,6 +1,6 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                Id="783eed6d-a10b-47ab-9739-b3892e97b4d6">
+                                                                                   Id="783eed6d-a10b-47ab-9739-b3892e97b4d6">
     <Page.Content>
         <Content Width="1024" Height="768" Id="4f80f23c-5bde-4fef-87c5-342195ab2467">
             <Content.Layers>
@@ -124,14 +124,14 @@
                                                 <Icon Color="#FF666666" CatalogId="fa-lock" Id="6ba7a7f0-565d-435b-b7b5-6b30b48297b3" />
                                             </TreeItem.Icon>
                                             <TreeItem.Selected>
-                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:02:47" Id="b7271ac4-5732-46d3-a4d3-90426c5bfdda">
+                                                <CommandNavigate Screen="/privateChatLogin.screen" Created="11/04/2017 20:02:47" Id="b7271ac4-5732-46d3-a4d3-90426c5bfdda">
                                                     <CommandNavigate.Transition>
                                                         <NavigateTransition Duration="0" />
                                                     </CommandNavigate.Transition>
                                                 </CommandNavigate>
                                             </TreeItem.Selected>
                                             <TreeItem.Click>
-                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:10:34" Id="924e7fa9-88a3-4b7c-8df0-bab2067ec818">
+                                                <CommandNavigate Screen="/privateChatLogin.screen" Created="11/04/2017 20:10:34" Id="924e7fa9-88a3-4b7c-8df0-bab2067ec818">
                                                     <CommandNavigate.Transition>
                                                         <NavigateTransition Duration="0" />
                                                     </CommandNavigate.Transition>
@@ -143,14 +143,14 @@
                                                 <Icon Color="#FF666666" CatalogId="fa-lock" Id="253339bb-a28f-44e8-a84d-0bafd0ee4c95" />
                                             </TreeItem.Icon>
                                             <TreeItem.Selected>
-                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:02:52" Id="c3f92975-ac14-4d79-81ae-2410ee939437">
+                                                <CommandNavigate Screen="/privateChatLogin.screen" Created="11/04/2017 20:02:52" Id="c3f92975-ac14-4d79-81ae-2410ee939437">
                                                     <CommandNavigate.Transition>
                                                         <NavigateTransition Duration="0" />
                                                     </CommandNavigate.Transition>
                                                 </CommandNavigate>
                                             </TreeItem.Selected>
                                             <TreeItem.Click>
-                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:10:41" Id="af7d6acb-3124-4706-a05e-cb68ff06f6c1">
+                                                <CommandNavigate Screen="/privateChatLogin.screen" Created="11/04/2017 20:10:41" Id="af7d6acb-3124-4706-a05e-cb68ff06f6c1">
                                                     <CommandNavigate.Transition>
                                                         <NavigateTransition Duration="0" />
                                                     </CommandNavigate.Transition>
@@ -162,14 +162,14 @@
                                                 <Icon Color="#FF666666" CatalogId="fa-lock" Id="45abf36a-7e87-422c-8f00-5d149d21d75f" />
                                             </TreeItem.Icon>
                                             <TreeItem.Selected>
-                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:02:56" Id="7caca3cd-5d9c-44b7-9050-37babfa32701">
+                                                <CommandNavigate Screen="/privateChatLogin.screen" Created="11/04/2017 20:02:56" Id="7caca3cd-5d9c-44b7-9050-37babfa32701">
                                                     <CommandNavigate.Transition>
                                                         <NavigateTransition Duration="0" />
                                                     </CommandNavigate.Transition>
                                                 </CommandNavigate>
                                             </TreeItem.Selected>
                                             <TreeItem.Click>
-                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:10:46" Id="6b532cc6-7285-47a5-9971-a6261e8c0d33">
+                                                <CommandNavigate Screen="/privateChatLogin.screen" Created="11/04/2017 20:10:46" Id="6b532cc6-7285-47a5-9971-a6261e8c0d33">
                                                     <CommandNavigate.Transition>
                                                         <NavigateTransition Duration="0" />
                                                     </CommandNavigate.Transition>

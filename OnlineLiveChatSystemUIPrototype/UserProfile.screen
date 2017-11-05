@@ -1,6 +1,6 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                Id="f8c54e6b-5bd1-4e4e-b64d-dc7a5e472671">
+                                                                                   Id="f8c54e6b-5bd1-4e4e-b64d-dc7a5e472671">
     <Page.Content>
         <Content Width="1024" Height="768" Id="487f4e6c-c518-4a22-ba75-5f4ad5f19cbb">
             <Content.Layers>
@@ -87,7 +87,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="a55a0abd-1996-4533-9386-f3aef36a6af1">
                             <Add.Item>
-                                <Button Text="Send new message" FontSize="18" FontFamily="Open Sans" Id="8b313e7e-631c-4edb-a1db-5fc7ce4861cc" Panel.Bounds="416,655,192{5,2147483647},67{5,2147483647}" />
+                                <Button Text="Edit" FontSize="18" FontFamily="Open Sans" Id="8b313e7e-631c-4edb-a1db-5fc7ce4861cc" Panel.Bounds="416,655,192{5,2147483647},67{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/EditUserProfile.screen" Created="11/05/2017 14:45:38" Id="7784e7e8-18aa-42ec-9896-1a354e9a7054">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a55a0abd-1996-4533-9386-f3aef36a6af1">

@@ -29,10 +29,10 @@
                                     <ContainerBox.Content>
                                         <Container ClipToContainer="True" Id="6c3cca5a-5bb2-4e52-8b8e-a9bf4dc4c286">
                                             <Container.Children>
-                                                <TextBox Id="43089f86-51d7-4a2f-9af1-3d8915acd291" Panel.Bounds="401,148,250{5,2147483647},5*{5,2147483647}" />
-                                                <Label RichText="Nickname: " FontSize="16" Id="ce8596fb-6a3f-4cbf-98a8-dda2c6e7300d" Panel.Bounds="286,149,5*{5,2147483647},5*{5,2147483647}" />
-                                                <Label RichText="Age:" FontSize="16" Id="53f21396-b69d-4ca6-b82d-70965791bd22" Panel.Bounds="337,215,5*{5,2147483647},5*{5,2147483647}" />
-                                                <ComboBox Id="cc351043-0ecb-4da4-a20a-4b86d11de685" Panel.Bounds="401,212,250{5,2147483647},25{5,2147483647}">
+                                                <TextBox Text="Pesho" Id="43089f86-51d7-4a2f-9af1-3d8915acd291" Panel.Bounds="402,127,250{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Nickname: " FontSize="16" Id="ce8596fb-6a3f-4cbf-98a8-dda2c6e7300d" Panel.Bounds="287,129,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Age:" FontSize="16" Id="53f21396-b69d-4ca6-b82d-70965791bd22" Panel.Bounds="338,245,5*{5,2147483647},5*{5,2147483647}" />
+                                                <ComboBox Hint="23" Id="cc351043-0ecb-4da4-a20a-4b86d11de685" Panel.Bounds="402,243,250{5,2147483647},25{5,2147483647}">
                                                     <ComboBox.Items>
                                                         <Item Text="18" Id="0fd6edab-0512-4edb-a98e-2d2b2ad2dc0a" />
                                                         <Item Text="19" Id="28628639-0822-4e18-9d9a-5fb9a08b4529" />
@@ -79,23 +79,23 @@
                                                         <Item Text="60" Id="55f04487-b251-4343-acf5-6b39c962d468" />
                                                     </ComboBox.Items>
                                                 </ComboBox>
-                                                <Label RichText="Sex:" FontSize="16" Id="15e50667-d8fb-4ebd-a995-120386f704c5" Panel.Bounds="337,277,5*{5,2147483647},5*{5,2147483647}" />
-                                                <OptionGroup Id="ace629e7-abe3-401c-8dde-613ad2233706" Panel.Bounds="398,273,5*{5,2147483647},5*{5,2147483647}">
+                                                <Label RichText="Sex:" FontSize="16" Id="15e50667-d8fb-4ebd-a995-120386f704c5" Panel.Bounds="340,293,5*{5,2147483647},5*{5,2147483647}" />
+                                                <OptionGroup Id="ace629e7-abe3-401c-8dde-613ad2233706" Panel.Bounds="403,290,5*{5,2147483647},5*{5,2147483647}">
                                                     <OptionGroup.Items>
-                                                        <Option Text="Male" Id="5c3fc3ab-9a5b-4d4d-ade7-6f2fac6ec815" />
+                                                        <Option Text="Male" IsSelected="True" Id="5c3fc3ab-9a5b-4d4d-ade7-6f2fac6ec815" />
                                                         <Option Text="Female" Id="efd8043b-a2f1-48d9-8d2a-08de41e63895" />
                                                     </OptionGroup.Items>
                                                 </OptionGroup>
-                                                <Label RichText="Country:" FontSize="16" Id="2ea8fe6a-8e89-4e0b-943a-1e90bf9495ab" Panel.Bounds="306,331,5*{5,2147483647},5*{5,2147483647}" />
-                                                <ComboBox Id="0ea215c9-c992-42a9-aeb9-d447d9b309b9" Panel.Bounds="401,328,250{5,2147483647},28{5,2147483647}">
+                                                <Label RichText="Country:" FontSize="16" Id="2ea8fe6a-8e89-4e0b-943a-1e90bf9495ab" Panel.Bounds="323,333,5*{5,2147483647},5*{5,2147483647}" />
+                                                <ComboBox Id="0ea215c9-c992-42a9-aeb9-d447d9b309b9" Panel.Bounds="401,332,250{5,2147483647},28{5,2147483647}">
                                                     <ComboBox.Items>
                                                         <Item Text="Bulgaria" Id="b763a98b-2ad0-48d8-95fd-2f2a7e3118c1" />
                                                         <Item Text="UK" Id="1864350d-1664-460e-b623-30a7d665c521" />
                                                         <Item Text="USA" Id="1061671e-4417-45fa-9415-524949110ba3" />
                                                     </ComboBox.Items>
                                                 </ComboBox>
-                                                <Label RichText="State:" FontSize="16" Id="e20e8cdc-2216-4a94-92bc-1c22aaa3de8e" Panel.Bounds="325,404,5*{5,2147483647},5*{5,2147483647}" />
-                                                <ComboBox Id="c84bc79b-de2e-41cd-9239-cf6247242f12" Panel.Bounds="401,401,250{5,2147483647},28{5,2147483647}">
+                                                <Label RichText="State:" FontSize="16" Id="e20e8cdc-2216-4a94-92bc-1c22aaa3de8e" Panel.Bounds="345,387,5*{5,2147483647},5*{5,2147483647}" />
+                                                <ComboBox Id="c84bc79b-de2e-41cd-9239-cf6247242f12" Panel.Bounds="401,385,250{5,2147483647},28{5,2147483647}">
                                                     <ComboBox.Items>
                                                         <Item Text="Plovdiv" Id="053ffc25-1b12-43ab-945e-2288a1f5e10c" />
                                                         <Item Text="London" Id="4939d7ec-f8e5-4acc-80fe-504ef5fd1ce2" />
@@ -103,7 +103,7 @@
                                                     </ComboBox.Items>
                                                 </ComboBox>
                                                 <Image SourcePath="assets/chat.png" Id="2c2a4684-1932-47cd-968c-9c554b534f13" Panel.Bounds="286,22,365{5,2147483647},82{5,2147483647}" />
-                                                <Button Text="Anonymous" Id="af2d98a2-6019-4850-b84c-b501e9aa5b62" Panel.Bounds="401,507,92{5,2147483647},35{5,2147483647}">
+                                                <Button Text="Anonymous" Id="af2d98a2-6019-4850-b84c-b501e9aa5b62" Panel.Bounds="403,452,92{5,2147483647},35{5,2147483647}">
                                                     <Button.Click>
                                                         <CommandNavigate Screen="/anonymousUserView.screen" Created="11/01/2017 12:24:51" Id="26994678-8de2-464e-b4d5-5a598128a624">
                                                             <CommandNavigate.Transition>
@@ -112,7 +112,7 @@
                                                         </CommandNavigate>
                                                     </Button.Click>
                                                 </Button>
-                                                <Button Text="Register" Id="1e1954f4-97fc-4ba4-a89c-84410c91bb73" Panel.Bounds="563,507,88{5,2147483647},35{5,2147483647}">
+                                                <Button Text="Register" Id="1e1954f4-97fc-4ba4-a89c-84410c91bb73" Panel.Bounds="570,453,88{5,2147483647},35{5,2147483647}">
                                                     <Button.Click>
                                                         <CommandNavigate Screen="/registeredUserView.screen" Created="11/01/2017 11:57:04" Id="27b83240-fef0-4249-af5d-4f73ab7be965">
                                                             <CommandNavigate.Transition>
@@ -121,7 +121,6 @@
                                                         </CommandNavigate>
                                                     </Button.Click>
                                                 </Button>
-                                                <Button Text="Use GPS" Id="86056c88-8f81-450e-8a07-abde14611fd0" Panel.Bounds="401,451,92{5,2147483647},35{5,2147483647}" />
                                                 <ContainerBox Id="d4df4cdc-31be-4b71-b847-43a7a6d17c48" Panel.Bounds="22,22,236{5,2147483647},520{5,2147483647}">
                                                     <ContainerBox.Content>
                                                         <Container ClipToContainer="True" Id="ce098724-6a1b-4382-afba-3a131a869257">
@@ -141,6 +140,17 @@
                                                         </Container>
                                                     </ContainerBox.Content>
                                                 </ContainerBox>
+                                                <Button Text="Already have an account?" FontFamily="Open Sans" Id="890f31ef-2735-4b5f-bd89-12c6c69efb4e" Panel.Bounds="402,508,257{5,2147483647},35{5,2147483647}">
+                                                    <Button.Click>
+                                                        <CommandNavigate Screen="/Login.screen" Created="11/05/2017 15:00:31" Id="a2383528-1f28-4f53-a623-ecfe78b1f75e">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Button.Click>
+                                                </Button>
+                                                <Label RichText="Password" FontSize="16" Id="a1bc3ea6-faf6-4733-81cc-0a0a3ad9d5c0" Panel.Bounds="287,184,5*{5,2147483647},5*{5,2147483647}" />
+                                                <PasswordBox Password="gfhfgh" FontFamily="Open Sans" Id="d2d3053f-0e11-45d3-9fc0-e0fd31bcb374" Panel.Bounds="400,184,253{5,2147483647},5*{5,2147483647}" />
                                             </Container.Children>
                                         </Container>
                                     </ContainerBox.Content>

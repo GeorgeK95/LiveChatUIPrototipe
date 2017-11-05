@@ -4,7 +4,7 @@
     <Project.Defaults>
         <ProjectDefaults Viewport="1024,768">
             <ProjectDefaults.Device>
-                <DeviceInfo Id="Browser" Orientation="None" />
+                <DeviceInfo Id="none" Orientation="None" />
             </ProjectDefaults.Device>
         </ProjectDefaults>
     </Project.Defaults>

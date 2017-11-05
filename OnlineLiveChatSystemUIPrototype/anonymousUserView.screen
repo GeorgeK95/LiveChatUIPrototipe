@@ -1,6 +1,6 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                Id="f2351a91-9663-440c-b5bf-33b5d7464488">
+                                                                                   Id="f2351a91-9663-440c-b5bf-33b5d7464488">
     <Page.Content>
         <Content Width="1024" Height="768" Id="39851810-7e79-4dd0-9821-30cf07193d05">
             <Content.Layers>
@@ -114,36 +114,85 @@
                                                 <Icon Color="#FF666666" CatalogId="fa-lock" Id="109c716d-8e82-431e-868e-9f2a935e9d0f" />
                                             </TreeItem.Icon>
                                             <TreeItem.Selected>
-                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:21:54" Id="c0995506-b2be-4b8d-8abf-de9ff70f3df9">
+                                                <CommandNavigate Screen="/privateChatLogin.screen" Created="11/04/2017 20:21:54" Id="c0995506-b2be-4b8d-8abf-de9ff70f3df9">
                                                     <CommandNavigate.Transition>
                                                         <NavigateTransition Duration="0" />
                                                     </CommandNavigate.Transition>
                                                 </CommandNavigate>
                                             </TreeItem.Selected>
+                                            <TreeItem.Click>
+                                                <CommandNavigate Screen="/anonymousUserChat.screen" Created="11/05/2017 14:48:53" Id="d33179ec-05e7-4684-b9d2-489dcc8cbc81">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Click>
+                                            <TreeItem.DoubleClick>
+                                                <CommandNavigate Screen="/privateChatLogin.screen" Created="11/05/2017 14:49:52" Id="c3524790-fa23-4aa8-a3f2-d50ce1f7c4b5">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.DoubleClick>
                                         </TreeItem>
                                         <TreeItem Text="Private Chat Room 2" Id="cd1c9898-695b-4f8c-8b59-b3dc66920e93">
                                             <TreeItem.Icon>
                                                 <Icon Color="#FF666666" CatalogId="fa-lock" Id="d477640a-cca1-42c3-ad1e-a8d263d36480" />
                                             </TreeItem.Icon>
                                             <TreeItem.Selected>
-                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:21:58" Id="535a0481-ee33-484c-9223-160e16b38675">
+                                                <CommandNavigate Screen="/privateChatLogin.screen" Created="11/04/2017 20:21:58" Id="535a0481-ee33-484c-9223-160e16b38675">
                                                     <CommandNavigate.Transition>
                                                         <NavigateTransition Duration="0" />
                                                     </CommandNavigate.Transition>
                                                 </CommandNavigate>
                                             </TreeItem.Selected>
+                                            <TreeItem.Click>
+                                                <CommandNavigate Screen="/anonymousUserChat.screen" Created="11/05/2017 14:49:01" Id="3a3b1fc2-36e0-4f30-9441-6496d0194524">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Click>
+                                            <TreeItem.DoubleClick>
+                                                <CommandNavigate Screen="/privateChatLogin.screen" Created="11/05/2017 14:49:57" Id="8584e443-053b-4de4-9375-e2f2394056d3">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.DoubleClick>
                                         </TreeItem>
                                         <TreeItem Text="Private Chat Room 3" Id="ea5ef295-6305-4fda-bb96-260607d6d7d8">
                                             <TreeItem.Icon>
                                                 <Icon Color="#FF666666" CatalogId="fa-lock" Id="db4c692e-bc81-4570-8430-239ed42643e7" />
                                             </TreeItem.Icon>
                                             <TreeItem.Selected>
-                                                <CommandNavigate Screen="/privateLogin.screen" Created="11/04/2017 20:22:01" Id="31dacdb8-15ec-43fc-bf2d-fb4683493c52">
+                                                <CommandNavigate Screen="/privateChatLogin.screen" Created="11/04/2017 20:22:01" Id="31dacdb8-15ec-43fc-bf2d-fb4683493c52">
                                                     <CommandNavigate.Transition>
                                                         <NavigateTransition Duration="0" />
                                                     </CommandNavigate.Transition>
                                                 </CommandNavigate>
                                             </TreeItem.Selected>
+                                            <TreeItem.Click>
+                                                <CommandNavigate Screen="/anonymousUserChat.screen" Created="11/05/2017 14:49:08" Id="94292b84-844e-426e-ab0c-023587b76f85">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Click>
+                                            <TreeItem.DoubleClick>
+                                                <CommandNavigate Screen="/Login.screen" Created="11/05/2017 14:50:04" Id="cd6b2035-08ab-490d-b1eb-9250cc6309de">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.DoubleClick>
+                                            <TreeItem.MouseOver>
+                                                <CommandNavigate Screen="/privateChatLogin.screen" Created="11/05/2017 14:50:13" Id="80e15467-4ce3-4a5a-94a5-acdee52aa837">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.MouseOver>
                                         </TreeItem>
                                     </Tree.Items>
                                 </Tree>

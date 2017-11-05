@@ -1,0 +1,109 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="f5595e8f-a382-4fba-8a8d-dc0c0bf723ea">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="7601a659-c965-4746-9dab-1b20fe12a485">
+            <Content.Layers>
+                <Layer Id="b4fea866-b254-48fe-b477-0c10ae68b562" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="157ee670-90bd-4118-a7fb-530451ef69ea" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="636c4f4a-374e-4d38-922f-eb59fec49544" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="f334f182-26ed-41fc-9c53-269464b4dd68" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/05/2017 14:54:18" Id="c78a0a9e-69b2-4836-a595-450111673685">
+            <Scene.KeyFrames>
+                <KeyFrame Id="9f79e683-5ae2-4d60-8d38-2741b9a5a625">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="b4fea866-b254-48fe-b477-0c10ae68b562">
+                            <Add.Item>
+                                <TextBox Text="pesho" Id="db5649dc-1fbc-42ef-9359-7852bfcad545" Panel.Bounds="454,180,250{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b4fea866-b254-48fe-b477-0c10ae68b562">
+                            <Add.Item>
+                                <Label RichText="Nickname: " FontSize="16" Id="af3e9011-6f7b-40e3-8b93-63a620c58859" Panel.Bounds="339,182,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b4fea866-b254-48fe-b477-0c10ae68b562">
+                            <Add.Item>
+                                <Image SourcePath="assets/chat.png" Id="134a86e1-b654-4099-9af8-3e09edf57977" Panel.Bounds="338,75,365{5,2147483647},82{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b4fea866-b254-48fe-b477-0c10ae68b562">
+                            <Add.Item>
+                                <Button Text="Login" Id="c74dcefb-48ed-4a98-9543-b8d3849cc7a5" Panel.Bounds="477,306,92{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/registeredUserView.screen" Created="11/05/2017 15:01:24" Id="bbf56267-8ffb-445b-b715-e59004c28d16">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b4fea866-b254-48fe-b477-0c10ae68b562">
+                            <Add.Item>
+                                <ContainerBox Id="7cbbc8a8-a5ee-4592-a9dc-e7f8a38b82ee" Panel.Bounds="74,75,236{5,2147483647},520{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="ccebacd6-ef8c-4315-b3ed-648c4fb5ba0b">
+                                            <Container.Children>
+                                                <Title RichText="A&#xD;&#xA;D&#xD;&#xA;D&#xD;&#xA;S&#xD;&#xA;&#xD;&#xA;H&#xD;&#xA;E&#xD;&#xA;R&#xD;&#xA;E" FontFamily="Open Sans" Id="45bb848f-5bcd-4788-920c-3ec06d88080c" Panel.Bounds="-1,-1,250{5,2147483647},520{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b4fea866-b254-48fe-b477-0c10ae68b562">
+                            <Add.Item>
+                                <ContainerBox Id="bf4d2e4b-6311-4ec9-950c-acd1dda4a75e" Panel.Bounds="736,75,242{5,2147483647},520{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="5f265202-40da-4fdb-b252-8a9532455d6e">
+                                            <Container.Children>
+                                                <Title RichText="A&#xD;&#xA;D&#xD;&#xA;D&#xD;&#xA;S&#xD;&#xA;&#xD;&#xA;H&#xD;&#xA;E&#xD;&#xA;R&#xD;&#xA;E" FontFamily="Open Sans" Id="962dc002-2365-4503-9f27-8c6e87b32ea4" Panel.Bounds="-677,-1,250{5,2147483647},520{5,2147483647}" />
+                                                <Title RichText="A&#xD;&#xA;D&#xD;&#xA;D&#xD;&#xA;S&#xD;&#xA;&#xD;&#xA;H&#xD;&#xA;E&#xD;&#xA;R&#xD;&#xA;E" FontFamily="Open Sans" Id="e5b50c66-c75e-46e9-a171-1d3a69092325" Panel.Bounds="-1,-1,250{5,2147483647},520{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b4fea866-b254-48fe-b477-0c10ae68b562">
+                            <Add.Item>
+                                <Button Text="Create free Account" FontFamily="Open Sans" Id="0bca05e2-1301-4db5-ba63-e4ebe216ccda" Panel.Bounds="411,560,257{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/index.screen" Created="11/05/2017 15:00:53" Id="358a3247-3e39-4e1b-b386-9c698129a043">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b4fea866-b254-48fe-b477-0c10ae68b562">
+                            <Add.Item>
+                                <Label RichText="Password" FontSize="16" Id="50b77ea4-950a-4e52-b376-4df44219935f" Panel.Bounds="339,237,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b4fea866-b254-48fe-b477-0c10ae68b562">
+                            <Add.Item>
+                                <PasswordBox Password="fsdfsdfs" FontFamily="Open Sans" Id="372f1084-335f-41c6-b8d3-887e447a54e5" Panel.Bounds="455,243,248{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
