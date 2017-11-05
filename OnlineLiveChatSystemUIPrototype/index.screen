@@ -140,7 +140,7 @@
                                                         </Container>
                                                     </ContainerBox.Content>
                                                 </ContainerBox>
-                                                <Button Text="Already have an account?" FontFamily="Open Sans" Id="890f31ef-2735-4b5f-bd89-12c6c69efb4e" Panel.Bounds="402,508,257{5,2147483647},35{5,2147483647}">
+                                                <Button Text="Already have an account ?" FontFamily="Open Sans" Id="890f31ef-2735-4b5f-bd89-12c6c69efb4e" Panel.Bounds="402,508,257{5,2147483647},35{5,2147483647}">
                                                     <Button.Click>
                                                         <CommandNavigate Screen="/Login.screen" Created="11/05/2017 15:00:31" Id="a2383528-1f28-4f53-a623-ecfe78b1f75e">
                                                             <CommandNavigate.Transition>

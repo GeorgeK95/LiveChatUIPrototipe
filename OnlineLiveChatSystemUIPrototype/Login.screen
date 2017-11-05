@@ -40,7 +40,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="b4fea866-b254-48fe-b477-0c10ae68b562">
                             <Add.Item>
-                                <Button Text="Login" Id="c74dcefb-48ed-4a98-9543-b8d3849cc7a5" Panel.Bounds="477,306,92{5,2147483647},35{5,2147483647}">
+                                <Button Text="User Login" Id="c74dcefb-48ed-4a98-9543-b8d3849cc7a5" Panel.Bounds="454,306,97{5,2147483647},35{5,2147483647}">
                                     <Button.Click>
                                         <CommandNavigate Screen="/registeredUserView.screen" Created="11/05/2017 15:01:24" Id="bbf56267-8ffb-445b-b715-e59004c28d16">
                                             <CommandNavigate.Transition>
@@ -99,6 +99,19 @@
                         <Add Property="Panel.Children" Target="b4fea866-b254-48fe-b477-0c10ae68b562">
                             <Add.Item>
                                 <PasswordBox Password="fsdfsdfs" FontFamily="Open Sans" Id="372f1084-335f-41c6-b8d3-887e447a54e5" Panel.Bounds="455,243,248{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b4fea866-b254-48fe-b477-0c10ae68b562">
+                            <Add.Item>
+                                <Button Text="Admin Login" Id="f7029052-8274-4e70-9cfc-0b1d7cbcac7c" Panel.Bounds="607,306,97{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/adminView.screen" Created="11/05/2017 20:36:05" Id="fd2d631c-e4c4-4007-8774-5e4b68cd5d3a">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

@@ -1,6 +1,6 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                Id="0086ce62-d041-484e-8a01-122a1849b098">
+                                                                                   Id="0086ce62-d041-484e-8a01-122a1849b098">
     <Page.Content>
         <Content Width="1024" Height="768" Id="82cab20a-90b0-4e74-af03-3ff698202caf">
             <Content.Layers>

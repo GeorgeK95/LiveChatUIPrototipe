@@ -30,12 +30,12 @@
                         </Add>
                         <Add Property="Panel.Children" Target="2fd32332-874e-4097-b41f-6de24bffd00e">
                             <Add.Item>
-                                <Title RichText="Private Chat Room 1" FontFamily="Open Sans" Id="bae988e1-d2f7-45c0-aae8-e8297942c0ac" Panel.Bounds="379,297,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="Private Chat Room" Align="Center" FontSize="48" FontFamily="Open Sans" Id="bae988e1-d2f7-45c0-aae8-e8297942c0ac" Panel.Bounds="306,254,450{5,2147483647},47*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="2fd32332-874e-4097-b41f-6de24bffd00e">
                             <Add.Item>
-                                <PasswordBox Password="fgdgdffdgdfgdf" FontFamily="Open Sans" Id="23063a50-22ed-4499-86bf-f2d163c3d3eb" Panel.Bounds="519,366,183{5,2147483647},5*{5,2147483647}" />
+                                <PasswordBox Password="fgdgdffdgdfgdf" FontFamily="Open Sans" Id="23063a50-22ed-4499-86bf-f2d163c3d3eb" Panel.Bounds="524,349,183{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="2fd32332-874e-4097-b41f-6de24bffd00e">
@@ -45,12 +45,12 @@
                         </Add>
                         <Add Property="Panel.Children" Target="2fd32332-874e-4097-b41f-6de24bffd00e">
                             <Add.Item>
-                                <Title RichText="&lt;Run FontSize=&quot;28&quot; &gt;Password&lt;/Run&gt;" FontFamily="Open Sans" Id="6bee6863-a573-4e9f-9064-12c9e8066634" Panel.Bounds="379,356,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="Password" FontSize="18" FontFamily="Open Sans" Id="6bee6863-a573-4e9f-9064-12c9e8066634" Panel.Bounds="383,349,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="2fd32332-874e-4097-b41f-6de24bffd00e">
                             <Add.Item>
-                                <Button Text="Enter" FontSize="36" FontFamily="Open Sans" Id="3aa57542-7c70-4c75-8c9c-5ef90de7a736" Panel.Bounds="469,422,143{5,2147483647},55{5,2147483647}">
+                                <Button Text="Enter" FontSize="16" FontFamily="Open Sans" Id="3aa57542-7c70-4c75-8c9c-5ef90de7a736" Panel.Bounds="394,416,112{5,2147483647},34{5,2147483647}">
                                     <Button.Click>
                                         <CommandNavigate Screen="/EditUserProfile.screen" Created="11/04/2017 20:09:36" Id="a0bce1b9-75ac-45aa-ad36-06fb071eb70e">
                                             <CommandNavigate.Transition>
@@ -58,20 +58,19 @@
                                             </CommandNavigate.Transition>
                                         </CommandNavigate>
                                     </Button.Click>
-                                    <Button.DoubleClick>
-                                        <CommandNavigate Screen="/registeredUserChat.screen" Created="11/04/2017 20:09:52" Id="54eb7431-86e5-4fb7-9365-60dd4a63da39">
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2fd32332-874e-4097-b41f-6de24bffd00e">
+                            <Add.Item>
+                                <Button Text="Enter as admin" FontSize="16" FontFamily="Open Sans" Id="32bbb963-053c-4cd5-bd13-411767c2986d" Panel.Bounds="556,416,137{5,2147483647},34{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/adminChatRoom.screen" Created="11/05/2017 21:10:37" Id="99f703b1-bd26-4307-8ebc-bb2d69be7c01">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Duration="0" />
                                             </CommandNavigate.Transition>
                                         </CommandNavigate>
-                                    </Button.DoubleClick>
-                                    <Button.MouseOver>
-                                        <CommandNavigate Screen="/registeredUserChat.screen" Created="11/04/2017 20:11:10" Id="e9beef58-a800-44cb-966b-9cde08a72c37">
-                                            <CommandNavigate.Transition>
-                                                <NavigateTransition Duration="0" />
-                                            </CommandNavigate.Transition>
-                                        </CommandNavigate>
-                                    </Button.MouseOver>
+                                    </Button.Click>
                                 </Button>
                             </Add.Item>
                         </Add>

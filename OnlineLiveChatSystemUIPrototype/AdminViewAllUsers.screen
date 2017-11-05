@@ -30,9 +30,25 @@
                                         <Container ClipToContainer="True" Id="f8fa4f58-4152-45e8-af0a-7567a82f1588">
                                             <Container.Children>
                                                 <Icon CatalogId="linea-remove" Id="5706cbb1-de74-489c-8888-9b7965333ba5" Panel.Bounds="755,18,32{5,2147483647},32{5,2147483647}" />
-                                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Logout&lt;/Run&gt;" FontFamily="Open Sans" Id="c94555e2-3376-4eb8-9c3e-29545826ff94" Panel.Bounds="789,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Logout&lt;/Run&gt;" FontFamily="Open Sans" Id="c94555e2-3376-4eb8-9c3e-29545826ff94" Panel.Bounds="789,23,5*{5,2147483647},5*{5,2147483647}">
+                                                    <Label.Click>
+                                                        <CommandNavigate Screen="/index.screen" Created="11/05/2017 20:46:12" Id="e6da05d8-a894-455a-a6dd-b9c133819c00">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Label.Click>
+                                                </Label>
                                                 <Icon CatalogId="fa-home" Id="c5b0dab8-9b77-46b7-aa3f-223793bb18b5" Panel.Bounds="599,18,32{5,2147483647},32{5,2147483647}" />
-                                                <Label RichText="Home" FontSize="16" FontFamily="Open Sans" Id="5868a565-cb80-461b-b389-f923d27c67a2" Name="Home" Panel.Bounds="643,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Home" FontSize="16" FontFamily="Open Sans" Id="5868a565-cb80-461b-b389-f923d27c67a2" Name="Home" Panel.Bounds="643,23,5*{5,2147483647},5*{5,2147483647}">
+                                                    <Label.Click>
+                                                        <CommandNavigate Screen="/adminView.screen" Created="11/05/2017 20:46:02" Id="28dd503d-f35b-4c62-b7f6-d691bca8ce4b">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Label.Click>
+                                                </Label>
                                             </Container.Children>
                                         </Container>
                                     </ContainerBox.Content>
