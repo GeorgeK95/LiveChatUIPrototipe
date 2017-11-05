@@ -42,7 +42,7 @@
                                                 </Label>
                                                 <Label RichText="Profile" FontSize="16" FontFamily="Open Sans" Id="21176caf-e9cc-436c-9bf0-06b4742cbd4f" Panel.Bounds="625,23,5*{5,2147483647},5*{5,2147483647}">
                                                     <Label.Click>
-                                                        <CommandNavigate Screen="/UserProfile.screen" Created="11/05/2017 20:43:36" Id="c9339c1d-b808-4791-bd4b-1b7a19ee19fc">
+                                                        <CommandNavigate Screen="/adminProfile.screen" Created="11/05/2017 21:25:48" Id="876e2c2d-de23-48d9-b40c-568ea6e399a5">
                                                             <CommandNavigate.Transition>
                                                                 <NavigateTransition Duration="0" />
                                                             </CommandNavigate.Transition>
@@ -51,7 +51,7 @@
                                                 </Label>
                                                 <Label RichText="Create Room" FontSize="16" FontFamily="Open Sans" Id="17174d71-f15d-4d74-86c7-6680225df9c6" Panel.Bounds="421,23,5*{5,2147483647},5*{5,2147483647}">
                                                     <Label.Click>
-                                                        <CommandNavigate Screen="/createChatRoom.screen" Created="11/05/2017 20:43:52" Id="2f3de481-f550-4048-9dde-83baabb102dc">
+                                                        <CommandNavigate Screen="/createAdminChatRoom.screen" Created="11/05/2017 21:31:44" Id="0301a9cd-cfd4-4829-8187-e17c1cff1b83">
                                                             <CommandNavigate.Transition>
                                                                 <NavigateTransition Duration="0" />
                                                             </CommandNavigate.Transition>

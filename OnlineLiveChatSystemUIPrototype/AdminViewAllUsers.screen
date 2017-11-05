@@ -137,7 +137,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="b3782087-7875-4863-adb0-ec1a92f7f6da">
                             <Add.Item>
-                                <Button Text="Delete" Background="#FFFFFFFF" FontFamily="Open Sans" Id="3015f6d2-e043-46be-8bda-2da7564055dc" Panel.Bounds="836,299,67{5,2147483647},25{5,2147483647}" />
+                                <Button Text="Ban" Background="#FFFFFFFF" FontFamily="Open Sans" Id="3015f6d2-e043-46be-8bda-2da7564055dc" Panel.Bounds="836,299,67{5,2147483647},25{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b3782087-7875-4863-adb0-ec1a92f7f6da">
@@ -147,7 +147,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="b3782087-7875-4863-adb0-ec1a92f7f6da">
                             <Add.Item>
-                                <Button Text="Delete" Background="#FFFFFFFF" FontFamily="Open Sans" Id="b89d39c4-a983-4446-8c9b-bbc2f6147cba" Panel.Bounds="836,363,67{5,2147483647},25{5,2147483647}" />
+                                <Button Text="Ban" Background="#FFFFFFFF" FontFamily="Open Sans" Id="b89d39c4-a983-4446-8c9b-bbc2f6147cba" Panel.Bounds="836,363,67{5,2147483647},25{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b3782087-7875-4863-adb0-ec1a92f7f6da">
@@ -157,7 +157,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="b3782087-7875-4863-adb0-ec1a92f7f6da">
                             <Add.Item>
-                                <Button Text="Delete" Background="#FFF7F7F7" FontFamily="Open Sans" Id="17dd7829-1e2f-4577-b3ec-fdf72bdecca4" Panel.Bounds="836,332,67{5,2147483647},25{5,2147483647}" />
+                                <Button Text="Ban" Background="#FFF7F7F7" FontFamily="Open Sans" Id="17dd7829-1e2f-4577-b3ec-fdf72bdecca4" Panel.Bounds="836,332,67{5,2147483647},25{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
