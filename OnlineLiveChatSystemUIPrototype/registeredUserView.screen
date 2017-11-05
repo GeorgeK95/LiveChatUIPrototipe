@@ -49,6 +49,15 @@
                                                         </CommandNavigate>
                                                     </Label.Click>
                                                 </Label>
+                                                <Label RichText="Create Room" FontSize="16" FontFamily="Open Sans" Id="23de5d46-c746-4a50-914c-b199e6763d4b" Panel.Bounds="421,23,5*{5,2147483647},5*{5,2147483647}">
+                                                    <Label.Click>
+                                                        <CommandNavigate Screen="/createChatRoom.screen" Created="11/05/2017 20:25:51" Id="4e371696-31bf-48cd-a017-dbe775e41857">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Label.Click>
+                                                </Label>
                                             </Container.Children>
                                         </Container>
                                     </ContainerBox.Content>
@@ -180,8 +189,18 @@
                                 </Tree>
                             </Add.Item>
                         </Add>
+                        <Add Property="Panel.Children" Target="9928c024-16ff-44c7-a369-352adf994cb1">
+                            <Add.Item>
+                                <Icon CatalogId="fa-plus" Id="026c082f-ce43-4619-b1ff-88c733520e78" Panel.Bounds="429,46,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
                     </KeyFrame.Operations>
                 </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" StateGroup="14f046d2-21b2-4004-b371-8ac716ce4fce" ParentScene="14f046d2-21b2-4004-b371-8ac716ce4fce" Created="11/05/2017 20:22:18" Id="7c3532b5-6b25-42ad-b54a-d7ff56aafb3b">
+            <Scene.KeyFrames>
+                <KeyFrame Id="e1da9cb0-d5ea-49c9-b601-4371b9044915" />
             </Scene.KeyFrames>
         </Scene>
     </Page.Scenes>

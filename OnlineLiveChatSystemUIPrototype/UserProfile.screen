@@ -62,7 +62,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="a55a0abd-1996-4533-9386-f3aef36a6af1">
                             <Add.Item>
-                                <Title RichText="Username" FontFamily="Open Sans" Id="7168777b-084b-4969-bd28-b4dd5d73008f" Panel.Bounds="520,165,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="Nickname" FontFamily="Open Sans" Id="7168777b-084b-4969-bd28-b4dd5d73008f" Panel.Bounds="520,165,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a55a0abd-1996-4533-9386-f3aef36a6af1">

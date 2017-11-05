@@ -1,0 +1,95 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="c5e3ea0b-80e6-4f93-9ec0-4f6d541434d5">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="5d188783-c90d-4e88-9335-ee4cb5e8e49a">
+            <Content.Layers>
+                <Layer Id="855fc788-7da0-4d38-ad28-1151b582cd93" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="b81405c2-9684-4f50-8d36-5cb7e53a279b" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="a62ac291-39ff-4e84-aef7-84f789aa05db" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="cd373b63-3fa1-4991-bdca-30d45a26eb22" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/05/2017 20:11:35" Id="a4b3541d-230f-437c-9964-7f2918ec54ce">
+            <Scene.KeyFrames>
+                <KeyFrame Id="4bceed01-ff0b-4c81-86b4-e4c4284a9789">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="855fc788-7da0-4d38-ad28-1151b582cd93">
+                            <Add.Item>
+                                <ContainerBox Id="99e91b54-1125-49e4-b3ff-026a14acf8a3" Panel.Bounds="130,44,805{5,2147483647},350{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="6d53e9e1-c7d6-4e7f-b219-b6b101b2f9cf" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="855fc788-7da0-4d38-ad28-1151b582cd93">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Chat room name:&lt;/Run&gt;" FontFamily="Open Sans" Id="e6607bcb-1c87-469c-89cb-d8478748fd5c" Panel.Bounds="250,101,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="855fc788-7da0-4d38-ad28-1151b582cd93">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Maximum users:&lt;/Run&gt;" FontFamily="Open Sans" Id="c6c64b5a-c440-4c0e-b2a9-0e1ebd7b869d" Panel.Bounds="250,185,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="855fc788-7da0-4d38-ad28-1151b582cd93">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Password(not necessary)&lt;/Run&gt;" FontFamily="Open Sans" Id="cc08cf0b-4547-4e96-ae2a-6d61d7e42dbd" Panel.Bounds="250,273,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="855fc788-7da0-4d38-ad28-1151b582cd93">
+                            <Add.Item>
+                                <Button Text="Create" FontSize="16" FontFamily="Open Sans" Id="0d3651ee-babd-4b11-a6e8-61fcadb2dad6" Panel.Bounds="494,330,105{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/registeredUserChat.screen" Created="11/05/2017 20:25:31" Id="1acb70b2-daa8-42b7-abb6-d20d562045a9">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="855fc788-7da0-4d38-ad28-1151b582cd93">
+                            <Add.Item>
+                                <ComboBox Id="a773a150-4b79-4657-8265-2d5d79118224" Panel.Bounds="472,182,150{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="2" Id="0e2b46a3-3834-4c1f-a908-9746cc60b7c9" />
+                                        <Item Text="3" Id="5696fb24-db80-4fa5-a381-15ac3c5a4f11" />
+                                        <Item Text="4" Id="afe461bc-5921-48d6-8937-efad07db61e1" />
+                                        <Item Text="5" Id="de44fd2f-1ca3-4e49-9724-82e7acdf8b16" />
+                                        <Item Text="6" Id="c3fcc800-6101-45e7-b454-57431838e6dd" />
+                                        <Item Text="7" Id="8fc80f54-1795-4559-ba24-7a3576487dd6" />
+                                        <Item Text="8" Id="d5b09790-bfb8-41b9-84c3-b8d9fe081219" />
+                                        <Item Text="9" Id="05651f36-4100-4252-bbd0-10493fe1024a" />
+                                        <Item Text="10" Id="498da176-1671-4693-b7b4-ff38c4397f11" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="855fc788-7da0-4d38-ad28-1151b582cd93">
+                            <Add.Item>
+                                <TextBox FontFamily="Open Sans" Id="cb71700a-8b95-4d90-8523-3566d70f79ac" Panel.Bounds="472,100,150{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="855fc788-7da0-4d38-ad28-1151b582cd93">
+                            <Add.Item>
+                                <PasswordBox FontFamily="Open Sans" Id="3ee30814-a8cf-4201-aee0-e87f81f23a37" Panel.Bounds="472,272,150{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
